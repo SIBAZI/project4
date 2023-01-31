@@ -43,7 +43,7 @@ body
     transform: translate(calc(25px * var(--x)),calc(25px
     * var(--y)));
     border-radius: 50%;
-    transition: transform 0.3s, width 0.3s,height 0.3s,
+    transition: transform 0.2s, width 0.2s,height 0.2s,
     background 0.5s;
     transition-delay: calc(0.1s * var(--i));
     display: flex;
