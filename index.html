@@ -16,14 +16,27 @@
         <span style="--i:2;--x:0;--y:-1;"></span>
         <span style="--i:3;--x:0;--y:1;"></span>
         <span style="--i:4;--x:-1;--y:1;"></span>
-        <span style="--i:5;--x:-1;--y:-1;"><ion-icon name="book-outline"></ion-icon></span>
+        <span  class="catalogue" style="--i:5;--x:-1;--y:-1;"><ion-icon name="book-outline"></ion-icon></span>
         <span style="--i:6;--x:1;--y:-1;"></span>
         <span style="--i:7;--x:1;--y:1;"></span>
 
     </div>
     <div class="close"><ion-icon name="close-outline"></ion-icon></div>
-   </div> 
+   
 
+   <div class="book-push-action">
+       <span style="--i:0;--x:0;--y:0;"></span>
+       <span style="--i:0;--x:0;--y:0;"></span>
+       <span style="--i:0;--x:0;--y:0;"></span>
+       <span style="--i:0;--x:0;--y:0;"></span>
+       <span style="--i:0;--x:0;--y:0;"></span>
+       <span style="--i:0;--x:0;--y:0;"></span>
+       <span style="--i:0;--x:0;--y:0;"></span>
+       <span style="--i:0;--x:0;--y:0;"></span>
+       <span style="--i:0;--x:0;--y:0;"></span>
+       <span style="--i:0;--x:0;--y:0;"></span>
+   </div>
+   </div>
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
    
@@ -36,6 +49,11 @@
    }
    close.onclick = function(){
    navigation.classList.remove('active');
+   }
+  //second action    
+   let catalogue = document.querySelector('.catalogue')
+   catalogue.onclick = function(){
+   catalogue.classList.toggle('revolution')
    }
    </script>
 
