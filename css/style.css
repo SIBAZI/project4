@@ -5,13 +5,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+li{
+    list-style: none;
+}
 body
 {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #101010;
+  background: #E7E7E7;
+
 }
 .main
 {
@@ -21,7 +25,12 @@ body
     align-items: center;
     width: 1000px;
     height: 750px;
-    background: rgba(255,255,255,0.1);
+    background: #E7E7E7;
+    z-index: 10;
+    /* slide */
+    left: 0;
+    transition: all .5s;
+    
 }
 .main .navigation
 {
@@ -39,17 +48,18 @@ body
     position: absolute;
     width: 15px;
     height: 15px;
-    background: #fff;
+    background: #8d8d8d;
     transform: translate(calc(25px * var(--x)),calc(25px
     * var(--y)));
     border-radius: 50%;
-    transition: transform 0.2s, width 0.2s,height 0.2s,
+    transition: transform 0.7s, width 0.1s,height 0.3s,
     background 0.5s;
     transition-delay: calc(0.1s * var(--i));
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .main .navigation.active span
 {
     width: 60px;
@@ -57,29 +67,31 @@ body
     background: #ffffff;
     transform: translate(calc(80px * var(--x)),calc(80px
     * var(--y)));
+    box-shadow: 0 3px 4px rgba(0,0,0,0.20);
 }
 
 .main .navigation span ion-icon
 {
     transition: 1.3s;
     font-size: 0em;
-    color: #000000;
+    color: #555555;
 }
 .main .navigation.active span ion-icon
 {
     font-size: 1.35em;
+    transform: rotate(360deg);
 }
 .main .navigation.active span:hover ion-icon
 {
     color: #ff0000;
-    filter: drop-shadow(0 0 2px #ff0000)drop-shadow(0 0 5px #ffffff)drop-shadow(0 0 15px #2dfc52);
+    filter: drop-shadow(0 0 2px #ffffff)drop-shadow(0 0 5px #ffffff)drop-shadow(0 0 15px #2dfc52);
 }
-.close
+ .close 
 {
     position: absolute;
     width: 15px;
     height: 15px;
-    background: #fff;
+    background: #8d8d8d;
     transition: 0.5s;
     transition-delay: 0.4s;
     pointer-events: none;
@@ -88,19 +100,20 @@ body
     align-items: center;
     border-radius: 50%;
 }
-.main .navigation.active ~ .close
+.main .navigation.active   ~ .close
 {
     width: 60px;
     height: 60px;
     pointer-events: initial;
     transition-delay: 0.8s;
     background: #ffffff;
+    box-shadow: 0 3px 4px rgba(0,0,0,0.20);
 }
 .main .navigation ~ .close ion-icon
 {
     font-size: 2em;
     scale: 0;
-    color: #10131c;
+    color: #555555;
     transition: 0.5s;
 }
 .main .navigation.active ~ .close ion-icon
@@ -110,9 +123,100 @@ body
 }
 .main .navigation .catalogue
 {
-    transition: 1.25s;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.15);  
 }
-.main .navigation .catalogue.revolution
+.catalogue li 
 {
-    transform: rotate(360deg);
+   color: #000000;
+   scale: 0; 
+   position:absolute;
+   left: -220px;
+   top: 15px;
+   transform-origin: 250px;
+   background: #ffffff;
+   transition: 1s;
+   transform: rotate(calc(360deg/10 * var(--i)));
+   list-style: none;
+   width: 10px;
+   height: 10px;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   box-shadow: 0 3px 4px rgba(0,0,0,0.20);
+   
+}
+ .catalogue.action li 
+{
+    position: absolute;
+    left: -160px;
+    top: 60px;
+    list-style: none;
+    transition: 1.2s;
+    transform: rotate(calc(360deg/10 * var(--i)));
+    transform-origin: 270px;
+    scale: 1;
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 3px 4px rgba(0,0,0,0.20);
+    
+}
+li a
+{
+    position:relative;
+    display: flex;
+    transform: rotate(calc(360deg/-10 * var(--i)));
+    font-size: 19px;
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+} 
+
+
+.navi1 
+{
+  display: block;
+  position: fixed;
+  top: 100px;
+  left: -200px;
+  bottom: 100px;
+  width: 200px;
+  color: #fff;
+  padding: 60px 25px;
+  background-color: #333333;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: all .5s;
+  z-index: 20;
+  opacity: 0;
+}
+.navi1.open 
+{
+    left: 0;
+    opacity: 1;
+}
+.navi1 a {
+    color: #fff;
+}
+.navi1 ul {
+    margin: 0;
+    padding: 0;
+}
+.navi1 ul.nav-menu {
+    margin-bottom: 60px;
+}
+.navi1 ul.nav-menu li {
+    position: relative;
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: solid 1px #fff;
+    border-top: solid 1px #fff;
+}
+.main.slide
+{
+    left: 100px;
+    transition: all .5s;
 }

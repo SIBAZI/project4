@@ -1,63 +1,216 @@
 <!DOCTYPE html>
 <html>
-<head>  
-    <title>Document</title>
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+<head>
+  <title>Document</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
+    integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
+
 <body>
-   <div class="main">
+  <div class="main">
     <div class="navigation">
-        <span style="--i:0;--x:-1;--y:0;"></span>
-        <span style="--i:1;--x:1;--y:0;"></span>
-        <span style="--i:2;--x:0;--y:-1;"></span>
-        <span style="--i:3;--x:0;--y:1;"></span>
-        <span style="--i:4;--x:-1;--y:1;"></span>
-        <span  class="catalogue" style="--i:5;--x:-1;--y:-1;"><ion-icon name="book-outline"></ion-icon></span>
-        <span style="--i:6;--x:1;--y:-1;"></span>
-        <span style="--i:7;--x:1;--y:1;"></span>
+      <span class="kinou1" style="--i:0;--x:-1;--y:0;"></span>
+      <span class="kinou2" style="--i:1;--x:1;--y:0;"></span>
+      <span class="kinou3" style="--i:2;--x:0;--y:-1;"></span>
+      <span class="kinou4" style="--i:3;--x:0;--y:1;"></span>
+      <span class="kinou5" style="--i:4;--x:-1;--y:1;"></span>
+      <span class="catalogue" style="--i:5;--x:-1;--y:-1;"><ion-icon name="book-outline"></ion-icon>
+        <li class="around1" style="--i:0;--clr:#1877f2;">
+          <a href="#">a</a>
+        </li>
+        <li class="around2" style="--i:1;--clr:#25d366;">
+          <a href="#">i</a>
+        </li>
+        <li class="around3" style="--i:2;--clr:#1da1f2;">
+          <a href="#">u</a>
+        </li>
+        <li class="around4" style="--i:3;--clr:#ea4c89;">
+          <a href="#">e</a>
+        </li>
+        <li class="around5" style="--i:4;--clr:#0a66c2;">
+          <a href="#">o</a>
+        </li>
+        <li class="around6" style="--i:5;--clr:#c32aa3;">
+          <a href="#">ka</a>
+        </li>
+        <li class="around7" style="--i:6;--clr:#bd081c;">
+          <a href="#">ki</a>
+        </li>
+        <li class="around8" style="--i:7;--clr:#ff0000;">
+          <a href="#">ku</a>
+        </li>
+        <li class="around9" style="--i:8;--clr:#ff0000;">
+          <a href="#">ke</a>
+        </li>
+        <li class="around10" style="--i:9;--clr:#ff0000;">
+          <a href="#">ko</a>
+        </li>
+      </span>
+      <span class="kinou7" style="--i:6;--x:1;--y:-1;"></span>
+      <span class="kinou8" style="--i:7;--x:1;--y:1;"></span>
 
     </div>
     <div class="close"><ion-icon name="close-outline"></ion-icon></div>
-   
+  </div>
 
-   <div class="book-push-action">
-       <span style="--i:0;--x:0;--y:0;"></span>
-       <span style="--i:0;--x:0;--y:0;"></span>
-       <span style="--i:0;--x:0;--y:0;"></span>
-       <span style="--i:0;--x:0;--y:0;"></span>
-       <span style="--i:0;--x:0;--y:0;"></span>
-       <span style="--i:0;--x:0;--y:0;"></span>
-       <span style="--i:0;--x:0;--y:0;"></span>
-       <span style="--i:0;--x:0;--y:0;"></span>
-       <span style="--i:0;--x:0;--y:0;"></span>
-       <span style="--i:0;--x:0;--y:0;"></span>
-   </div>
-   </div>
-   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-   
-   <script>
-   let navigation = document.querySelector('.navigation');
-   console.log(navigation)
-   let close = document.querySelector('.close');
-   navigation.onclick = function(){
-   navigation.classList.add('active');
-   }
-   close.onclick = function(){
-   navigation.classList.remove('active');
-   }
-  //second action    
-   let catalogue = document.querySelector('.catalogue')
-   catalogue.onclick = function(){
-   catalogue.classList.toggle('revolution')
-   }
-   </script>
+  <nav class="navi1">
+    <h2>MAZDA</h2>
+    <ul class="nav-menu">
+      <li><a href="#">360°vew</a></li>
+      <li>
+      <div class="navi1-cataloge">カタログ</div>
+      </li>
+      <dl>
+        <dt><a href="#">Start</a></dt>
+        <dt><a href="#">Grade</a></dt>
+        <dt><a href="#">Body color</a></dt>
+        <dt><a href="#">Grade chart</a></dt>
+        <dt><a href="#">Equipment</a></dt>
+        <dt><a href="#">MAZDA connect</a></dt>
+      </dl>
+      <li><a href="#">アクセサリー</a></li>
+      <li><a href="#">主要緒元・装備</a></li>
+    </ul>
+  </nav>
 
-   
-    
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script>
+    let navigation = document.querySelector('.navigation');
+    console.log(navigation)
+    let close = document.querySelector('.close');
+    navigation.onclick = function () {
+      navigation.classList.add('active');
+    }
+
+
+    //    second action
+
+
+
+
+
+    //  bookのマークを押したとき
+    let catalogue = document.querySelector('.catalogue');
+    catalogue.onclick = function () {
+      console.log(navigation.classList.contains('active'));
+      // !で反転させてactiveがふくまれてなければに変える
+      if (!navigation.classList.contains('active')  ){
+        return;
+      }
+      // もしactionが含まれていれば
+      if (catalogue.classList.contains('action')) {
+        // actionをremoveする
+        catalogue.classList.remove('action');
+      } else {
+        //action実行
+        catalogue.classList.add('action');
+      }
+      navi1.classList.remove('open');
+    }
+    // liを押しても巻き戻さないようにする
+    let around1 = document.querySelector('.around1');
+    let around2 = document.querySelector('.around2');
+    let around3 = document.querySelector('.around3');
+    let around4 = document.querySelector('.around4');
+    let around5 = document.querySelector('.around5');
+    let around6 = document.querySelector('.around6');
+    let around7 = document.querySelector('.around7');
+    let around8 = document.querySelector('.around8');
+    let around9 = document.querySelector('.around9');
+    let around10 = document.querySelector('.around10');
+
+    // three action
+    let main = document.querySelector('.main');
+    let navi1 = document.querySelector('.navi1');
+
+    around1.onclick = function(e) {
+      console.log(e);
+      e.stopPropagation();
+      if(!navi1.classList.contains('open')){
+       navi1.classList.add('open');
+       main.classList.add('slide');
+      }else{
+       navi1.classList.remove('open');
+       main.classList.remove('slide');
+      }
+
+    }
+
+    around2.onclick = function(e) {
+      console.log(e);
+      e.stopPropagation();
+    }
+
+    around3.onclick = function(e) {
+      console.log(e);
+      e.stopPropagation();
+    }
+
+    around4.onclick = function(e) {
+      console.log(e);
+      e.stopPropagation();
+    }
+
+    around5.onclick = function(e) {
+      console.log(e);
+      e.stopPropagation();
+    }
+
+    around6.onclick = function(e) {
+      console.log(e);
+      e.stopPropagation();
+    }
+
+    around7.onclick = function(e) {
+      console.log(e);
+      e.stopPropagation();
+    }
+
+    around8.onclick = function(e) {
+      console.log(e);
+      e.stopPropagation();
+    }
+
+    around9.onclick = function(e) {
+      console.log(e);
+      e.stopPropagation();
+    }
+
+    around10.onclick = function(e) {
+      console.log(e);
+      e.stopPropagation();
+    }
+
+
+
+
+
+
+
+    // closeを押したときに閉じる要素
+    close.onclick = function () {
+      navigation.classList.remove('active');
+      catalogue.classList.remove('action');
+      navi1.classList.remove('open');
+    }
+
+  </script>
+
+
+
 </body>
+
 </html>
