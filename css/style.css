@@ -603,6 +603,7 @@ li p
     margin-top: 100px;
 }
 .navi1 a {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
     color: #fff;
     text-decoration: none;
 }
@@ -619,6 +620,10 @@ li p
     padding: 20px 0;
     border-bottom: solid 1px #fff;
     border-top: solid 1px #fff;
+}
+.cataloguemenu1
+{
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
 .navi1 .detail1 {
     display: none;
@@ -659,6 +664,7 @@ li p
     margin-top: 100px;
 }
 .navi2 a {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
     color: #fff;
     text-decoration: none;
 }
@@ -676,6 +682,11 @@ li p
     border-bottom: solid 1px #fff;
     border-top: solid 1px #fff;
 }
+.cataloguemenu2
+{
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+}
+
 .navi2 .detail2 {
     display: none;
 }
@@ -714,6 +725,7 @@ li p
     margin-top: 100px;
 }
 .navi3 a {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
     color: #fff;
     text-decoration: none;
 }
@@ -731,6 +743,11 @@ li p
     border-bottom: solid 1px #fff;
     border-top: solid 1px #fff;
 }
+.cataloguemenu3
+{
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+}
+
 .navi3 .detail3 {
     display: none;
 }
@@ -769,6 +786,7 @@ li p
     margin-top: 100px;
 }
 .navi4 a {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
     color: #fff;
     text-decoration: none;
 }
@@ -786,6 +804,11 @@ li p
     border-bottom: solid 1px #fff;
     border-top: solid 1px #fff;
 }
+.cataloguemenu4
+{
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+}
+
 .navi4 .detail4 {
     display: none;
 }
@@ -824,6 +847,7 @@ li p
     margin-top: 100px;
 }
 .navi5 a {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
     color: #fff;
     text-decoration: none;
 }
@@ -841,6 +865,11 @@ li p
     border-bottom: solid 1px #fff;
     border-top: solid 1px #fff;
 }
+.cataloguemenu5
+{
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+}
+
 .navi5 .detail5 {
     display: none;
 }
@@ -879,6 +908,7 @@ li p
     margin-top: 100px;
 }
 .navi6 a {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
     color: #fff;
     text-decoration: none;
 }
@@ -896,6 +926,11 @@ li p
     border-bottom: solid 1px #fff;
     border-top: solid 1px #fff;
 }
+.cataloguemenu6
+{
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+}
+
 .navi6 .detail6 {
     display: none;
 }
@@ -934,6 +969,7 @@ li p
     margin-top: 100px;
 }
 .navi7 a {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
     color: #fff;
     text-decoration: none;
 }
@@ -951,6 +987,11 @@ li p
     border-bottom: solid 1px #fff;
     border-top: solid 1px #fff;
 }
+.cataloguemenu7
+{
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+}
+
 .navi7 .detail7 {
     display: none;
 }
@@ -989,6 +1030,7 @@ li p
     margin-top: 100px;
 }
 .navi8 a {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
     color: #fff;
     text-decoration: none;
 }
@@ -1005,6 +1047,10 @@ li p
     padding: 20px 0;
     border-bottom: solid 1px #fff;
     border-top: solid 1px #fff;
+}
+.cataloguemenu8
+{
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
 .navi8 .detail8 {
     display: none;
@@ -1044,6 +1090,7 @@ li p
     margin-top: 100px;
 }
 .navi9 a {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
     color: #fff;
     text-decoration: none;
 }
@@ -1060,6 +1107,10 @@ li p
     padding: 20px 0;
     border-bottom: solid 1px #fff;
     border-top: solid 1px #fff;
+}
+.cataloguemenu9
+{
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
 .navi9 .detail9 {
     display: none;
@@ -1099,6 +1150,7 @@ li p
     margin-top: 100px;
 }
 .navi10 a {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
     color: #fff;
     text-decoration: none;
 }
@@ -1115,6 +1167,10 @@ li p
     padding: 20px 0;
     border-bottom: solid 1px #fff;
     border-top: solid 1px #fff;
+}
+.cataloguemenu10
+{
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
 .navi10 .detail10 {
     display: none;
