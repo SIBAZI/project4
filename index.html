@@ -2,11 +2,13 @@
 <html>
 
 <head>
-  <title>Document</title>
+  <title>Pocket.M</title>
   <link
     href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
   <script src="https://code.jquery.com/jquery-3.6.3.min.js"
     integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
@@ -24,36 +26,56 @@
       <span class="kinou3" style="--i:2;--x:0;--y:-1;"></span>
       <span class="kinou4" style="--i:3;--x:0;--y:1;"></span>
       <span class="kinou5" style="--i:4;--x:-1;--y:1;"></span>
-      <span class="catalogue" style="--i:5;--x:-1;--y:-1;"><ion-icon name="book-outline"></ion-icon>
-        <li class="around1" style="--i:0;--clr:#1877f2;">
-          <a href="#">a</a>
+      <span class="catalogue" style="--i:5;--x:-1;--y:-1;"><ion-icon name="car-sport-outline"></ion-icon>
+        <li class="around1" style="--i:0;">
+          <img src="img/CX-3.png"alt="CX-3">
+          <p class="car-name-CX-3">CX-3</p>
+          <p class="car-size-CX-3">4,275×1,765×1,550</p>
         </li>
-        <li class="around2" style="--i:1;--clr:#25d366;">
-          <a href="#">i</a>
+        <li class="around2" style="--i:1;">
+          <img src="img/CX-30.png"alt="CX-30">
+          <p class="car-name-CX-30">CX-30</p>
+          <p class="car-size-CX-30">4,395×1,795×1,540</p>
         </li>
-        <li class="around3" style="--i:2;--clr:#1da1f2;">
-          <a href="#">u</a>
+        <li class="around3" style="--i:2;">
+          <img src="img/MX-30.png"alt="MX-30">
+          <p class="car-name-MX-30">MX-30</p>
+          <p class="car-size-MX-30">4,395×1,795×1,550</p>
         </li>
-        <li class="around4" style="--i:3;--clr:#ea4c89;">
-          <a href="#">e</a>
+        <li class="around4" style="--i:3;">
+          <img src="img/CX-5.png"alt="CX-5">
+          <p class="car-name-CX-5">CX-5</p>
+          <p class="car-size-CX-5">4,575×1845×1,690</p>
         </li>
-        <li class="around5" style="--i:4;--clr:#0a66c2;">
-          <a href="#">o</a>
+        <li class="around5" style="--i:4;">
+          <img src="img/CX-60.png"alt="CX-60">
+          <p class="car-name-CX-60">CX-60</p>
+          <p class="car-size-CX-60">4,740×1,890×1,685</p>
         </li>
-        <li class="around6" style="--i:5;--clr:#c32aa3;">
-          <a href="#">ka</a>
+        <li class="around6" style="--i:5;">
+          <img src="img/CX-8.png"alt="CX-8">
+          <p class="car-name-CX-8">CX-8</p>
+          <p class="car-size-CX-8">4,925×1,845×1,730</p>
         </li>
-        <li class="around7" style="--i:6;--clr:#bd081c;">
-          <a href="#">ki</a>
+        <li class="around7" style="--i:6;">
+          <img src="img/MAZDA6.png"alt="MAZDA6">
+          <p class="car-name-MAZDA6">MAZDA6</p>
+          <p class="car-size-MAZDA6">(s)4,865×1,840×1,450<br>(w)4,805×1,840×1,480</br></p>
         </li>
-        <li class="around8" style="--i:7;--clr:#ff0000;">
-          <a href="#">ku</a>
+        <li class="around8" style="--i:7;">
+          <img src="img/MAZDA3.png"alt="MAZDA3">
+          <p class="car-name-MAZDA3">MAZDA3</p>
+          <p class="car-size-MAZDA3">(f)4,460×1,795×1,440<br>(s)4,460×1,795×1,445</p>
         </li>
-        <li class="around9" style="--i:8;--clr:#ff0000;">
-          <a href="#">ke</a>
+        <li class="around9" style="--i:8;">
+          <img src="img/MAZDA2.png"alt="MAZDA2">
+          <p class="car-name-MAZDA2">MAZDA2</p>
+          <p class="car-size-MAZDA2">4,080×1,695×1,500</p>
         </li>
-        <li class="around10" style="--i:9;--clr:#ff0000;">
-          <a href="#">ko</a>
+        <li class="around10" style="--i:9;">
+          <img src="img/ROADSTER.png"alt="ROADSTER">
+          <p class="car-name-ROADSTER">ROADSTER</p>
+          <p class="car-size-ROADSTER">3,915×1,735×1,235</p>
         </li>
       </span>
       <span class="kinou7" style="--i:6;--x:1;--y:-1;"></span>
@@ -64,152 +86,236 @@
   </div>
 
   <nav class="navi1">
-    <h2>MAZDA</h2>
-    <ul class="nav-menu">
+    <h2>CX-3</h2>
+    <ul class="navi-menu">
+      <li><a href="https://www.mazda.co.jp/cars/cx-3/#react_QPg52QFiREWx165E3tAZqw" target="_blank">360°vew</a></li>
+      <li>
+      <div class="cataloguemenu1">カタログ</div>
+      </li>
+      <div class="detail1">
+      <dl>
+        <dt><a href="PDF/CX-3/CX-3_start.pdf" target="_blank">始めから</a></dt>
+        <dt><a href="PDF/CX-3/CX-3_grade_price.pdf" target="_blank">グレード価格</a></dt>
+        <dt><a href="PDF/CX-3/CX-3_grade_chart.pdf" target="_blank">グレード別装備</a></dt>
+        <dt><a href="PDF/CX-3/CX-3_color.pdf" target="_blank">ボディ色・シート色</a></dt>
+        <dt><a href="PDF/CX-3/CX-3_equipment.pdf" target="_blank">備品</a></dt>
+        <dt><a href="PDF/CX-3/CX-3_mazda_connect.pdf" target="_blank">マツダコネクト</a></dt>
+      </dl>
+      </div>
+      <li><a href="https://www.mazda.co.jp/globalassets/assets/carlife/accessories/support/info_lib/now/common/pdf/ac-catalog/cx-3.pdf">アクセサリー</a></li>
+      <li><a href="https://www.mazda.co.jp/globalassets/assets/cars/cx-3/common/pdf/cx-3_specification_202204.pdf">主要緒元・装備</a></li>
+    </ul>
+  </nav>
+
+  <nav class="navi2">
+    <h2>CX-30</h2>
+    <ul class="navi-menu">
       <li><a href="#">360°vew</a></li>
       <li>
-      <div class="navi1-cataloge">カタログ</div>
+      <div class="cataloguemenu2">カタログ</div>
       </li>
+      <div class="detail2">
       <dl>
-        <dt><a href="#">Start</a></dt>
-        <dt><a href="#">Grade</a></dt>
-        <dt><a href="#">Body color</a></dt>
-        <dt><a href="#">Grade chart</a></dt>
-        <dt><a href="#">Equipment</a></dt>
-        <dt><a href="#">MAZDA connect</a></dt>
+        <dt><a href="PDF/CX-30/CX-30_start.pdf" target="_blank">始めから</a></dt>
+        <dt><a href="PDF/CX-30/CX-30_gurade_praice.pdf" target="_blank">グレード価格</a></dt>
+        <dt><a href="PDF/CX-30/CX-30_grade_chart.pdf" target="_blank">グレード別装備</a></dt>
+        <dt><a href="PDF/CX-30/CX-30_color.pdf" target="_blank">ボディ色・シート色</a></dt>
+        <dt><a href="PDF/CX-30/CX-30_equipment.pdf" target="_blank">備品</a></dt>
+        <dt><a href="PDF/CX-30/CX-30_mazda_connect.pdf" target="_blank">マツダコネクト</a></dt>
       </dl>
+      </div>
+      <li><a href="#">アクセサリー</a></li>
+      <li><a href="#">主要緒元・装備</a></li>
+    </ul>
+  </nav>
+
+  <nav class="navi3">
+    <h2>MX-30</h2>
+    <ul class="navi-menu">
+      <li><a href="#">360°vew</a></li>
+      <li>
+      <div class="cataloguemenu3">カタログ</div>
+      </li>
+      <div class="detail3">
+      <dl>
+        <dt><a href="PDF/MX-30/MX-30_start.pdf" target="_blank">始めから</a></dt>
+        <dt><a href="PDF/MX-30/MX-30_grade_praice.pdf" target="_blank">グレード価格</a></dt>
+        <dt><a href="PDF/MX-30/MX-30_grade_chart.pdf" target="_blank">グレード別装備</a></dt>
+        <dt><a href="PDF/MX-30/MX-30_color.pdf" target="_blank">ボディ色・シート色</a></dt>
+        <dt><a href="PDF/MX-30/MX-30_equipment.pdf" target="_blank">備品</a></dt>
+        <dt><a href="PDF/MX-30/MX-30_connect.pdf" target="_blank">マツダコネクト</a></dt>
+        <dt><a href="PDF/MX-30/MX-30evmodel_start.pdf" target="_blank">始めから(EV)</a></dt>
+        <dt><a href="PDF/MX-30/MX-30evmodel_grade_praice.pdf" target="_blank">グレード価格(EV)</a></dt>
+        <dt><a href="PDF/MX-30/MX-30evmodel_grade_chart.pdf" target="_blank">グレード別装備(EV)</a></dt>
+        <dt><a href="PDF/MX-30/MX-30evmodel_color.pdf" target="_blank">ボディ色・シート色(EV)</a></dt>
+      </dl>
+      </div>
+      <li><a href="#">アクセサリー</a></li>
+      <li><a href="#">主要緒元・装備</a></li>
+    </ul>
+  </nav>
+
+  <nav class="navi4">
+    <h2>CX-5</h2>
+    <ul class="navi-menu">
+      <li><a href="#">360°vew</a></li>
+      <li>
+      <div class="cataloguemenu4">カタログ</div>
+      </li>
+      <div class="detail4">
+      <dl>
+        <dt><a href="PDF/CX-5/CX-5_start.pdf" target="_blank">始めから</a></dt>
+        <dt><a href="PDF/CX-5/CX-5_grade_praice.pdf" target="_blank">グレード価格</a></dt>
+        <dt><a href="PDF/CX-5/CX-5_grade_chart.pdf" target="_blank">グレード別装備</a></dt>
+        <dt><a href="PDF/CX-5/CX-5_color.pdf" target="_blank">ボディ色・シート色</a></dt>
+        <dt><a href="PDF/CX-5/CX-5_equipment.pdf" target="_blank">備品</a></dt>
+        <dt><a href="PDF/CX-5/CX-5_mazda_connect.pdf" target="_blank">マツダコネクト</a></dt>
+      </dl>
+      </div>
+      <li><a href="#">アクセサリー</a></li>
+      <li><a href="#">主要緒元・装備</a></li>
+    </ul>
+  </nav>
+
+  <nav class="navi5">
+    <h2>CX-60</h2>
+    <ul class="navi-menu">
+      <li><a href="#">360°vew</a></li>
+      <li>
+      <div class="cataloguemenu5">カタログ</div>
+      </li>
+      <div class="detail5">
+      <dl>
+        <dt><a href="PDF/CX-60/CX-60_start.pdf" target="_blank">始めから</a></dt>
+        <dt><a href="PDF/CX-60/CX-60_grade_praice.pdf" target="_blank">グレード価格</a></dt>
+        <dt><a href="PDF/CX-60/CX-60_grade_chart.pdf" target="_blank">グレード別装備</a></dt>
+        <dt><a href="PDF/CX-60/CX-60_color.pdf" target="_blank">ボディ色・シート色</a></dt>
+        <dt><a href="PDF/CX-60/CX-60_equipment.pdf" target="_blank">備品</a></dt>
+        <dt><a href="PDF/CX-60/CX-60_mazda_connect.pdf" target="_blank">マツダコネクト</a></dt>
+      </dl>
+      </div>
+      <li><a href="#">アクセサリー</a></li>
+      <li><a href="#">主要緒元・装備</a></li>
+    </ul>
+  </nav>
+
+  <nav class="navi6">
+    <h2>CX-8</h2>
+    <ul class="navi-menu">
+      <li><a href="#">360°vew</a></li>
+      <li>
+      <div class="cataloguemenu6">カタログ</div>
+      </li>
+      <div class="detail6">
+      <dl>
+        <dt><a href="#">始めから</a></dt>
+        <dt><a href="#">グレード価格</a></dt>
+        <dt><a href="#">グレード別装備</a></dt>
+        <dt><a href="#">ボディ色・シート色</a></dt>
+        <dt><a href="#">備品</a></dt>
+        <dt><a href="#">マツダコネクト</a></dt>
+      </dl>
+      </div>
+      <li><a href="#">アクセサリー</a></li>
+      <li><a href="#">主要緒元・装備</a></li>
+    </ul>
+  </nav>
+
+  <nav class="navi7">
+    <h2>MAZDA6</h2>
+    <ul class="navi-menu">
+      <li><a href="#">360°vew</a></li>
+      <li>
+      <div class="cataloguemenu7">カタログ</div>
+      </li>
+      <div class="detail7">
+      <dl>
+        <dt><a href="#">始めから</a></dt>
+        <dt><a href="#">グレード価格</a></dt>
+        <dt><a href="#">グレード別装備</a></dt>
+        <dt><a href="#">ボディ色・シート色</a></dt>
+        <dt><a href="#">備品</a></dt>
+        <dt><a href="#">マツダコネクト</a></dt>
+      </dl>
+      </div>
+      <li><a href="#">アクセサリー</a></li>
+      <li><a href="#">主要緒元・装備</a></li>
+    </ul>
+  </nav>
+
+  <nav class="navi8">
+    <h2>MAZDA3</h2>
+    <ul class="navi-menu">
+      <li><a href="#">360°vew</a></li>
+      <li>
+      <div class="cataloguemenu8">カタログ</div>
+      </li>
+      <div class="detail8">
+      <dl>
+        <dt><a href="#">始めから</a></dt>
+        <dt><a href="#">グレード価格</a></dt>
+        <dt><a href="#">グレード別装備</a></dt>
+        <dt><a href="#">ボディ色・シート色</a></dt>
+        <dt><a href="#">備品</a></dt>
+        <dt><a href="#">マツダコネクト</a></dt>
+      </dl>
+      </div>
+      <li><a href="#">アクセサリー</a></li>
+      <li><a href="#">主要緒元・装備</a></li>
+    </ul>
+  </nav>
+
+  <nav class="navi9">
+    <h2>MAZDA2</h2>
+    <ul class="navi-menu">
+      <li><a href="#">360°vew</a></li>
+      <li>
+      <div class="cataloguemenu9">カタログ</div>
+      </li>
+      <div class="detail9">
+      <dl>
+        <dt><a href="#">始めから</a></dt>
+        <dt><a href="#">グレード価格</a></dt>
+        <dt><a href="#">グレード別装備</a></dt>
+        <dt><a href="#">ボディ色・シート色</a></dt>
+        <dt><a href="#">備品</a></dt>
+        <dt><a href="#">マツダコネクト</a></dt>
+      </dl>
+      </div>
+      <li><a href="#">アクセサリー</a></li>
+      <li><a href="#">主要緒元・装備</a></li>
+    </ul>
+  </nav>
+
+  <nav class="navi10">
+    <h2>ROADSTER</h2>
+    <ul class="navi-menu">
+      <li><a href="#">360°vew</a></li>
+      <li>
+      <div class="cataloguemenu10">カタログ</div>
+      </li>
+      <div class="detail10">
+      <dl>
+        <dt><a href="#">始めから</a></dt>
+        <dt><a href="#">グレード価格</a></dt>
+        <dt><a href="#">グレード別装備</a></dt>
+        <dt><a href="#">ボディ色・シート色</a></dt>
+        <dt><a href="#">備品</a></dt>
+        <dt><a href="#">マツダコネクト</a></dt>
+      </dl>
+      </div>
       <li><a href="#">アクセサリー</a></li>
       <li><a href="#">主要緒元・装備</a></li>
     </ul>
   </nav>
 
 
+  <!-- 使用アイコン -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-  <script>
-    let navigation = document.querySelector('.navigation');
-    console.log(navigation)
-    let close = document.querySelector('.close');
-    navigation.onclick = function () {
-      navigation.classList.add('active');
-    }
-
-
-    //    second action
-
-
-
-
-
-    //  bookのマークを押したとき
-    let catalogue = document.querySelector('.catalogue');
-    catalogue.onclick = function () {
-      console.log(navigation.classList.contains('active'));
-      // !で反転させてactiveがふくまれてなければに変える
-      if (!navigation.classList.contains('active')  ){
-        return;
-      }
-      // もしactionが含まれていれば
-      if (catalogue.classList.contains('action')) {
-        // actionをremoveする
-        catalogue.classList.remove('action');
-      } else {
-        //action実行
-        catalogue.classList.add('action');
-      }
-      navi1.classList.remove('open');
-    }
-    // liを押しても巻き戻さないようにする
-    let around1 = document.querySelector('.around1');
-    let around2 = document.querySelector('.around2');
-    let around3 = document.querySelector('.around3');
-    let around4 = document.querySelector('.around4');
-    let around5 = document.querySelector('.around5');
-    let around6 = document.querySelector('.around6');
-    let around7 = document.querySelector('.around7');
-    let around8 = document.querySelector('.around8');
-    let around9 = document.querySelector('.around9');
-    let around10 = document.querySelector('.around10');
-
-    // three action
-    let main = document.querySelector('.main');
-    let navi1 = document.querySelector('.navi1');
-
-    around1.onclick = function(e) {
-      console.log(e);
-      e.stopPropagation();
-      if(!navi1.classList.contains('open')){
-       navi1.classList.add('open');
-       main.classList.add('slide');
-      }else{
-       navi1.classList.remove('open');
-       main.classList.remove('slide');
-      }
-
-    }
-
-    around2.onclick = function(e) {
-      console.log(e);
-      e.stopPropagation();
-    }
-
-    around3.onclick = function(e) {
-      console.log(e);
-      e.stopPropagation();
-    }
-
-    around4.onclick = function(e) {
-      console.log(e);
-      e.stopPropagation();
-    }
-
-    around5.onclick = function(e) {
-      console.log(e);
-      e.stopPropagation();
-    }
-
-    around6.onclick = function(e) {
-      console.log(e);
-      e.stopPropagation();
-    }
-
-    around7.onclick = function(e) {
-      console.log(e);
-      e.stopPropagation();
-    }
-
-    around8.onclick = function(e) {
-      console.log(e);
-      e.stopPropagation();
-    }
-
-    around9.onclick = function(e) {
-      console.log(e);
-      e.stopPropagation();
-    }
-
-    around10.onclick = function(e) {
-      console.log(e);
-      e.stopPropagation();
-    }
-
-
-
-
-
-
-
-    // closeを押したときに閉じる要素
-    close.onclick = function () {
-      navigation.classList.remove('active');
-      catalogue.classList.remove('action');
-      navi1.classList.remove('open');
-    }
-
-  </script>
-
-
+  
+  <script src="./main.js"></script>
 
 </body>
 

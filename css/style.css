@@ -17,6 +17,401 @@ body
   background: #E7E7E7;
 
 }
+.catalogue li img{
+    position:relative;
+    transform: rotate(calc(360deg/-10 * var(--i)));
+    scale: 0;
+    transition: 0.4s;
+    
+}
+.catalogue.action li img{
+    scale: 1;
+}
+
+.car-name-CX-3{
+    position: absolute;
+    top:10px;
+    left:auto;
+    font-size:35px;
+    font-weight: 20px;
+    color: #000000;
+    padding:0;
+    margin:0;
+  }
+  
+.car-size-CX-3{
+    position: absolute;
+    top:117px;
+    left:auto;
+    font-size:14px;
+    font-weight: 20px;
+    color: #000000;
+    padding:0;
+    margin:0;
+}
+.catalogue li .car-name-CX-3
+{
+    scale: 0;
+}
+.catalogue.action li .car-name-CX-3
+{
+    scale: 1;
+}
+.catalogue li .car-size-CX-3
+{
+    scale: 0;
+}
+.catalogue.action li .car-size-CX-3
+{
+    scale: 1;
+}
+.car-name-CX-30
+{
+    position: absolute;
+    top:20px;
+    left: 5px;
+    font-size:35px;
+    font-weight: 20px;
+    color: #000000;
+    padding:0;
+    margin:0;
+}
+.car-size-CX-30{
+    position: absolute;
+    top:111px;
+    left:48px;
+    font-size:14px;
+    font-weight: 20px;
+    color: #000000;
+    padding:0;
+    margin:0;
+}
+.catalogue li .car-name-CX-30
+{
+    scale: 0;
+}
+.catalogue.action li .car-name-CX-30
+{
+    scale: 1;
+}
+.catalogue li .car-size-CX-30
+{
+    scale: 0;
+}
+.catalogue.action li .car-size-CX-30
+{
+    scale: 1;
+}
+
+.car-name-MX-30
+{
+    position: absolute;
+    top:45px;
+    left: -15px;
+    font-size:35px;
+    font-weight: 20px;
+    color: #000000;
+    padding:0;
+    margin:0;
+}
+.car-size-MX-30
+{
+    position: absolute;
+    top:88px;
+    left:65px;
+    font-size:14px;
+    font-weight: 20px;
+    color: #000000;
+    padding:0;
+    margin:0;
+}
+.catalogue li .car-name-MX-30
+{
+    scale: 0;
+}
+.catalogue.action li .car-name-MX-30
+{
+    scale: 1;
+}
+.catalogue li .car-size-MX-30
+{
+    scale: 0;
+}
+.catalogue.action li .car-size-MX-30
+{
+    scale: 1;
+}
+.car-name-CX-5
+{
+    position: absolute;
+    top:77px;
+    left: -3px;
+    font-size:35px;
+    font-weight: 20px;
+    color: #000000;
+    padding:0;
+    margin:0;
+}
+.car-size-CX-5
+{
+    position: absolute;
+    top:60px;
+    left:65px;
+    font-size:14px;
+    font-weight: 20px;
+    color: #000000;
+    padding:0;
+    margin:0;
+}
+.catalogue li .car-name-CX-5
+{
+    scale: 0;
+}
+.catalogue.action li .car-name-CX-5
+{
+    scale: 1;
+}
+.catalogue li .car-size-CX-5
+{
+    scale: 0;
+}
+.catalogue.action li .car-size-CX-5
+{
+    scale: 1;
+}
+
+.car-name-CX-60
+{
+    position: absolute;
+    top:100px;
+    left: 10px;
+    font-size:35px;
+    font-weight: 20px;
+    color: #000000;
+    padding:0;
+    margin:0;
+}
+.car-size-CX-60
+{
+    position: absolute;
+    top:35px;
+    left:47px;
+    font-size:14px;
+    font-weight: 20px;
+    color: #000000;
+    padding:0;
+    margin:0;
+}
+.catalogue li .car-name-CX-60
+{
+    scale: 0;
+}
+.catalogue.action li .car-name-CX-60
+{
+    scale: 1;
+}
+.catalogue li .car-size-CX-60
+{
+    scale: 0;
+}
+.catalogue.action li .car-size-CX-60
+{
+    scale: 1;
+}
+.car-name-CX-8
+{
+    position: absolute;
+    top:112px;
+    left: 47px;
+    font-size:35px;
+    font-weight: 20px;
+    color: #000000;
+    padding:0;
+    margin:0;
+}
+.car-size-CX-8
+{
+    position: absolute;
+    top:28px;
+    left:20px;
+    font-size:14px;
+    font-weight: 20px;
+    color: #000000;
+    padding:0;
+    margin:0;
+}
+.catalogue li .car-name-CX-8
+{
+    scale: 0;
+}
+.catalogue.action li .car-name-CX-8
+{
+    scale: 1;
+}
+.catalogue li .car-size-CX-8
+{
+    scale: 0;
+}
+.catalogue.action li .car-size-CX-8
+{
+    scale: 1;
+}
+
+.car-name-MAZDA6
+{
+    position: absolute;
+    top:95px;
+    left: 47px;
+    font-size:30px;
+    font-weight: 20px;
+    color: #000000;
+    padding:0;
+    margin:0;
+}
+.car-size-MAZDA6
+{
+    position: absolute;
+    top:29px;
+    left:-3px;
+    font-size:11px;
+    font-weight: 20px;
+    color: #000000;
+    padding:0;
+    margin:0;
+}
+.catalogue li .car-name-MAZDA6
+{
+    scale: 0;
+}
+.catalogue.action li .car-name-MAZDA6
+{
+    scale: 1;
+}
+.catalogue li .car-size-MAZDA6
+{
+    scale: 0;
+}
+.catalogue.action li .car-size-MAZDA6
+{
+    scale: 1;
+}
+.car-name-MAZDA3
+{
+    position: absolute;
+    top:74px;
+    left: 61px;
+    font-size:30px;
+    font-weight: 20px;
+    color: #000000;
+    padding:0;
+    margin:0;
+}
+.car-size-MAZDA3
+{
+    position: absolute;
+    top:52px;
+    left:-20px;
+    font-size:11px;
+    font-weight: 20px;
+    color: #000000;
+    padding:0;
+    margin:0;
+}
+.catalogue li .car-name-MAZDA3
+{
+    scale: 0;
+}
+.catalogue.action li .car-name-MAZDA3
+{
+    scale: 1;
+}
+.catalogue li .car-size-MAZDA3
+{
+    scale: 0;
+}
+.catalogue.action li .car-size-MAZDA3
+{
+    scale: 1;
+}
+
+.car-name-MAZDA2
+{
+    position: absolute;
+    top: 48px;
+    left: 61px;
+    font-size:30px;
+    font-weight: 20px;
+    color: #000000;
+    padding:0;
+    margin:0;
+}
+.car-size-MAZDA2
+{
+    position: absolute;
+    top:87px;
+    left:-23px;
+    font-size:14px;
+    font-weight: 20px;
+    color: #000000;
+    padding:0;
+    margin:0;
+}
+.catalogue li .car-name-MAZDA2
+{
+    scale: 0;
+}
+.catalogue.action li .car-name-MAZDA2
+{
+    scale: 1;
+}
+.catalogue li .car-size-MAZDA2
+{
+    scale: 0;
+}
+.catalogue.action li .car-size-MAZDA2
+{
+    scale: 1;
+}
+
+.car-name-ROADSTER
+{
+    position: absolute;
+    top: 33px;
+    left: 43px;
+    font-size:25px;
+    font-weight: 20px;
+    color: #000000;
+    padding:0;
+    margin:0;
+}
+.car-size-ROADSTER
+{
+    position: absolute;
+    top:112px;
+    left:-8px;
+    font-size:14px;
+    font-weight: 20px;
+    color: #000000;
+    padding:0;
+    margin:0;
+}
+.catalogue li .car-name-ROADSTER
+{
+    scale: 0;
+}
+.catalogue.action li .car-name-ROADSTER
+{
+    scale: 1;
+}
+.catalogue li .car-size-ROADSTER
+{
+    scale: 0;
+}
+.catalogue.action li .car-size-ROADSTER
+{
+    scale: 1;
+}
+
 .main
 {
     position: relative;
@@ -78,7 +473,7 @@ body
 }
 .main .navigation.active span ion-icon
 {
-    font-size: 1.35em;
+    font-size: 1.9em;
     transform: rotate(360deg);
 }
 .main .navigation.active span:hover ion-icon
@@ -130,11 +525,11 @@ body
    color: #000000;
    scale: 0; 
    position:absolute;
-   left: -220px;
-   top: 15px;
+   left: -225px;
+   top: 25px;
    transform-origin: 250px;
    background: #ffffff;
-   transition: 1s;
+   transition: 0.8s;
    transform: rotate(calc(360deg/10 * var(--i)));
    list-style: none;
    width: 10px;
@@ -148,15 +543,15 @@ body
  .catalogue.action li 
 {
     position: absolute;
-    left: -160px;
-    top: 60px;
+    left: -280px;
+    top: 30px;
     list-style: none;
-    transition: 1.2s;
+    transition: 1.5s;
     transform: rotate(calc(360deg/10 * var(--i)));
-    transform-origin: 270px;
+    transform-origin: 390px;
     scale: 1;
-    width: 100px;
-    height: 100px;
+    width: 165px;
+    height: 165px;
     background: #ffffff;
     display: flex;
     justify-content: center;
@@ -165,7 +560,7 @@ body
     box-shadow: 0 3px 4px rgba(0,0,0,0.20);
     
 }
-li a
+li p
 {
     position:relative;
     display: flex;
@@ -175,15 +570,76 @@ li a
     text-decoration: none;
 } 
 
+.main.slide
+{
+    left: 200px;
+    top: 70px;
+    transition: all .5s;
+}
 
 .navi1 
 {
   display: block;
   position: fixed;
-  top: 100px;
   left: -200px;
-  bottom: 100px;
   width: 200px;
+  height: 1040px;
+  color: #fff;
+  padding: 70px 25px;
+  background-color: #333333;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: all .5s;
+  z-index: 20;
+  opacity: 0;
+}
+.navi1.open1
+{
+    left: 0;
+    opacity: 1;
+}
+.navi1 h2
+{
+    margin-top: 100px;
+}
+.navi1 a {
+    color: #fff;
+    text-decoration: none;
+}
+.navi1 ul {
+    margin: 0;
+    padding: 0;
+}
+.navi1 ul.navi-menu {
+    margin-bottom: 100px;
+}
+.navi1 ul.navi-menu li {
+    position: relative;
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: solid 1px #fff;
+    border-top: solid 1px #fff;
+}
+.navi1 .detail1 {
+    display: none;
+}
+.navi1 .detail1.detail1denote1{
+    display: initial;
+}
+
+.navi1 .detail1 dt{
+    padding: 15px 3px;
+    background: #4b4b4b;
+}
+
+
+.navi2 
+{
+  display: block;
+  position: fixed;
+  left: -200px;
+  width: 200px;
+  height: 1040px;
   color: #fff;
   padding: 60px 25px;
   background-color: #333333;
@@ -193,30 +649,482 @@ li a
   z-index: 20;
   opacity: 0;
 }
-.navi1.open 
+.navi2.open2
 {
     left: 0;
     opacity: 1;
 }
-.navi1 a {
-    color: #fff;
+.navi2 h2
+{
+    margin-top: 100px;
 }
-.navi1 ul {
+.navi2 a {
+    color: #fff;
+    text-decoration: none;
+}
+.navi2 ul {
     margin: 0;
     padding: 0;
 }
-.navi1 ul.nav-menu {
-    margin-bottom: 60px;
+.navi2 ul.navi-menu {
+    margin-bottom: 100px;
 }
-.navi1 ul.nav-menu li {
+.navi2 ul.navi-menu li {
     position: relative;
     margin: 0;
     padding: 20px 0;
     border-bottom: solid 1px #fff;
     border-top: solid 1px #fff;
 }
-.main.slide
-{
-    left: 100px;
-    transition: all .5s;
+.navi2 .detail2 {
+    padding: 20px 1px;
+    display: none;
 }
+.navi2 .detail2.detail2denote2{
+    display: initial;
+}
+
+.navi2 .detail2 dt{
+    padding: 15px 2px;
+}
+
+.navi3 
+{
+  display: block;
+  position: fixed;
+  left: -200px;
+  width: 200px;
+  height: 1040px;
+  color: #fff;
+  padding: 60px 25px;
+  background-color: #333333;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: all .5s;
+  z-index: 20;
+  opacity: 0;
+}
+.navi3.open3
+{
+    left: 0;
+    opacity: 1;
+}
+.navi3 h2
+{
+    margin-top: 100px;
+}
+.navi3 a {
+    color: #fff;
+    text-decoration: none;
+}
+.navi3 ul {
+    margin: 0;
+    padding: 0;
+}
+.navi3 ul.navi-menu {
+    margin-bottom: 100px;
+}
+.navi3 ul.navi-menu li {
+    position: relative;
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: solid 1px #fff;
+    border-top: solid 1px #fff;
+}
+.navi3 .detail3 {
+    padding: 20px 1px;
+    display: none;
+}
+.navi3 .detail3.detail3denote3{
+    display: initial;
+}
+
+.navi3 .detail3 dt{
+    padding: 15px 2px;
+}
+
+.navi4 
+{
+  display: block;
+  position: fixed;
+  left: -200px;
+  width: 200px;
+  height: 1040px;
+  color: #fff;
+  padding: 60px 25px;
+  background-color: #333333;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: all .5s;
+  z-index: 20;
+  opacity: 0;
+}
+.navi4.open4
+{
+    left: 0;
+    opacity: 1;
+}
+.navi4 h2
+{
+    margin-top: 100px;
+}
+.navi4 a {
+    color: #fff;
+    text-decoration: none;
+}
+.navi4 ul {
+    margin: 0;
+    padding: 0;
+}
+.navi4 ul.navi-menu {
+    margin-bottom: 100px;
+}
+.navi4 ul.navi-menu li {
+    position: relative;
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: solid 1px #fff;
+    border-top: solid 1px #fff;
+}
+.navi4 .detail4 {
+    padding: 20px 1px;
+    display: none;
+}
+.navi4 .detail4.detail4denote4{
+    display: initial;
+}
+
+.navi4 .detail4 dt{
+    padding: 15px 2px;
+}
+
+.navi5
+{
+  display: block;
+  position: fixed;
+  left: -200px;
+  width: 200px;
+  height: 1040px;
+  color: #fff;
+  padding: 60px 25px;
+  background-color: #333333;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: all .5s;
+  z-index: 20;
+  opacity: 0;
+}
+.navi5.open5
+{
+    left: 0;
+    opacity: 1;
+}
+.navi5 h2
+{
+    margin-top: 100px;
+}
+.navi5 a {
+    color: #fff;
+    text-decoration: none;
+}
+.navi5 ul {
+    margin: 0;
+    padding: 0;
+}
+.navi5 ul.navi-menu {
+    margin-bottom: 100px;
+}
+.navi5 ul.navi-menu li {
+    position: relative;
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: solid 1px #fff;
+    border-top: solid 1px #fff;
+}
+.navi5 .detail5 {
+    padding: 20px 1px;
+    display: none;
+}
+.navi5 .detail5.detail5denote5{
+    display: initial;
+}
+
+.navi5 .detail5 dt{
+    padding: 15px 2px;
+}
+
+.navi6 
+{
+  display: block;
+  position: fixed;
+  left: -200px;
+  width: 200px;
+  height: 1040px;
+  color: #fff;
+  padding: 60px 25px;
+  background-color: #333333;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: all .5s;
+  z-index: 20;
+  opacity: 0;
+}
+.navi6.open6
+{
+    left: 0;
+    opacity: 1;
+}
+.navi6 h2
+{
+    margin-top: 100px;
+}
+.navi6 a {
+    color: #fff;
+    text-decoration: none;
+}
+.navi6 ul {
+    margin: 0;
+    padding: 0;
+}
+.navi6 ul.navi-menu {
+    margin-bottom: 100px;
+}
+.navi6 ul.navi-menu li {
+    position: relative;
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: solid 1px #fff;
+    border-top: solid 1px #fff;
+}
+.navi6 .detail6 {
+    padding: 20px 1px;
+    display: none;
+}
+.navi6 .detail6.detail6denote6{
+    display: initial;
+}
+
+.navi6 .detail6 dt{
+    padding: 15px 2px;
+}
+
+.navi7 
+{
+  display: block;
+  position: fixed;
+  left: -200px;
+  width: 200px;
+  height: 1040px;
+  color: #fff;
+  padding: 60px 25px;
+  background-color: #333333;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: all .5s;
+  z-index: 20;
+  opacity: 0;
+}
+.navi7.open7
+{
+    left: 0;
+    opacity: 1;
+}
+.navi7 h2
+{
+    margin-top: 100px;
+}
+.navi7 a {
+    color: #fff;
+    text-decoration: none;
+}
+.navi7 ul {
+    margin: 0;
+    padding: 0;
+}
+.navi7 ul.navi-menu {
+    margin-bottom: 100px;
+}
+.navi7 ul.navi-menu li {
+    position: relative;
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: solid 1px #fff;
+    border-top: solid 1px #fff;
+}
+.navi7 .detail7 {
+    padding: 20px 1px;
+    display: none;
+}
+.navi7 .detail7.detail7denote7{
+    display: initial;
+}
+
+.navi7 .detail7 dt{
+    padding: 15px 2px;
+}
+
+.navi8 
+{
+  display: block;
+  position: fixed;
+  left: -200px;
+  width: 200px;
+  height: 1040px;
+  color: #fff;
+  padding: 60px 25px;
+  background-color: #333333;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: all .5s;
+  z-index: 20;
+  opacity: 0;
+}
+.navi8.open8
+{
+    left: 0;
+    opacity: 1;
+}
+.navi8 h2
+{
+    margin-top: 100px;
+}
+.navi8 a {
+    color: #fff;
+    text-decoration: none;
+}
+.navi8 ul {
+    margin: 0;
+    padding: 0;
+}
+.navi8 ul.navi-menu {
+    margin-bottom: 100px;
+}
+.navi8 ul.navi-menu li {
+    position: relative;
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: solid 1px #fff;
+    border-top: solid 1px #fff;
+}
+.navi8 .detail8 {
+    padding: 20px 1px;
+    display: none;
+}
+.navi8 .detail8.detail8denote8{
+    display: initial;
+}
+
+.navi8 .detail8 dt{
+    padding: 15px 2px;
+}
+
+.navi9 
+{
+  display: block;
+  position: fixed;
+  left: -200px;
+  width: 200px;
+  height: 1040px;
+  color: #fff;
+  padding: 60px 25px;
+  background-color: #333333;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: all .5s;
+  z-index: 20;
+  opacity: 0;
+}
+.navi9.open9
+{
+    left: 0;
+    opacity: 1;
+}
+.navi9 h2
+{
+    margin-top: 100px;
+}
+.navi9 a {
+    color: #fff;
+    text-decoration: none;
+}
+.navi9 ul {
+    margin: 0;
+    padding: 0;
+}
+.navi9 ul.navi-menu {
+    margin-bottom: 100px;
+}
+.navi9 ul.navi-menu li {
+    position: relative;
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: solid 1px #fff;
+    border-top: solid 1px #fff;
+}
+.navi9 .detail9 {
+    padding: 20px 1px;
+    display: none;
+}
+.navi9 .detail9.detail9denote9{
+    display: initial;
+}
+
+.navi9 .detail9 dt{
+    padding: 15px 2px;
+}
+
+.navi10 
+{
+  display: block;
+  position: fixed;
+  left: -200px;
+  width: 200px;
+  height: 1040px;
+  color: #fff;
+  padding: 60px 25px;
+  background-color: #333333;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: all .5s;
+  z-index: 20;
+  opacity: 0;
+}
+.navi10.open10
+{
+    left: 0;
+    opacity: 1;
+}
+.navi10 h2
+{
+    margin-top: 100px;
+}
+.navi10 a {
+    color: #fff;
+    text-decoration: none;
+}
+.navi10 ul {
+    margin: 0;
+    padding: 0;
+}
+.navi10 ul.navi-menu {
+    margin-bottom: 100px;
+}
+.navi10 ul.navi-menu li {
+    position: relative;
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: solid 1px #fff;
+    border-top: solid 1px #fff;
+}
+.navi10 .detail10 {
+    padding: 20px 1px;
+    display: none;
+}
+.navi10 .detail10.detail10denote10{
+    display: initial;
+}
+
+.navi10 .detail10 dt{
+    padding: 15px 2px;
+}
+
