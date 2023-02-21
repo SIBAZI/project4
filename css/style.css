@@ -479,7 +479,7 @@ body
 .main .navigation.active span:hover ion-icon
 {
     color: #ff0000;
-    filter: drop-shadow(0 0 2px #ffffff)drop-shadow(0 0 5px #ffffff)drop-shadow(0 0 15px #2dfc52);
+    filter: drop-shadow(0 0 2px #ffffff)drop-shadow(0 0 5px #ffffff)drop-shadow(0 0 15px #ffffff);
 }
  .close 
 {
@@ -577,12 +577,13 @@ li p
     transition: all .5s;
 }
 
+
 .navi1 
 {
   display: block;
   position: fixed;
-  left: -200px;
-  width: 200px;
+  left: -240px;
+  width: 240px;
   height: 1040px;
   color: #fff;
   padding: 70px 25px;
@@ -600,7 +601,8 @@ li p
 }
 .navi1 h2
 {
-    margin-top: 100px;
+    margin-top: 200px;
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
 .navi1 a {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
@@ -627,6 +629,8 @@ li p
 }
 .navi1 .detail1 {
     display: none;
+
+    
 }
 .navi1 .detail1.detail1denote1{
     display: initial;
@@ -637,13 +641,31 @@ li p
     background: #4b4b4b;
 }
 
+.navi1 .detail1-2 dt{
+    padding: 15px 3px;
+    background: #4b4b4b;
+}
+.navi1 .detail1-2 dt.dt-bottom{
+    padding: 15px 3px;
+    background: #4b4b4b;
+    border-bottom: solid 1px #fff;
+}
+
+.navi1 .detail1-2 {
+    display: none;
+
+    
+}
+.navi1 .detail1-2.detail1-2denote1-2{
+    display: initial;
+}
 
 .navi2 
 {
   display: block;
   position: fixed;
-  left: -200px;
-  width: 200px;
+  left: -240px;
+  width: 240px;
   height: 1040px;
   color: #fff;
   padding: 60px 25px;
@@ -661,7 +683,8 @@ li p
 }
 .navi2 h2
 {
-    margin-top: 100px;
+    margin-top: 200px;
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
 .navi2 a {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
@@ -699,12 +722,31 @@ li p
     background: #4b4b4b;
 }
 
+.navi2 .detail2-2 dt{
+    padding: 15px 3px;
+    background: #4b4b4b;
+}
+.navi2 .detail2-2 dt.dt-bottom{
+    padding: 15px 3px;
+    background: #4b4b4b;
+    border-bottom: solid 1px #fff;
+}
+
+.navi2 .detail2-2 {
+    display: none;
+
+    
+}
+.navi2 .detail2-2.detail2-2denote2-2{
+    display: initial;
+}
+
 .navi3 
 {
   display: block;
   position: fixed;
-  left: -200px;
-  width: 200px;
+  left: -240px;
+  width: 240px;
   height: 1040px;
   color: #fff;
   padding: 60px 25px;
@@ -722,7 +764,8 @@ li p
 }
 .navi3 h2
 {
-    margin-top: 100px;
+    margin-top: 200px;
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
 .navi3 a {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
@@ -760,12 +803,36 @@ li p
     background: #4b4b4b;
 }
 
+.navi3 .detail3-2 dt{
+    padding: 15px 3px;
+    background: #4b4b4b;
+}
+.navi3 .detail3-2 dt.dt-bottom{
+    padding: 15px 3px;
+    background: #4b4b4b;
+    border-bottom: solid 1px #fff;
+}
+
+.navi3 .detail3-2 {
+    display: none;
+
+    
+}
+.navi3 .detail3-2.detail3-2denote3-2{
+    display: initial;
+}
+
+.navi3 .detail3 dt.ev-dt-top
+{
+    border-top: solid 1px #fff;
+}
+
 .navi4 
 {
   display: block;
   position: fixed;
-  left: -200px;
-  width: 200px;
+  left: -240px;
+  width: 240px;
   height: 1040px;
   color: #fff;
   padding: 60px 25px;
@@ -783,7 +850,8 @@ li p
 }
 .navi4 h2
 {
-    margin-top: 100px;
+    margin-top: 200px;
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
 .navi4 a {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
@@ -821,12 +889,31 @@ li p
     background: #4b4b4b;
 }
 
+.navi4 .detail4-2 dt{
+    padding: 15px 3px;
+    background: #4b4b4b;
+}
+.navi4 .detail4-2 dt.dt-bottom{
+    padding: 15px 3px;
+    background: #4b4b4b;
+    border-bottom: solid 1px #fff;
+}
+
+.navi4 .detail4-2 {
+    display: none;
+
+    
+}
+.navi4 .detail4-2.detail4-2denote4-2{
+    display: initial;
+}
+
 .navi5
 {
   display: block;
   position: fixed;
-  left: -200px;
-  width: 200px;
+  left: -240px;
+  width: 240px;
   height: 1040px;
   color: #fff;
   padding: 60px 25px;
@@ -844,7 +931,8 @@ li p
 }
 .navi5 h2
 {
-    margin-top: 100px;
+    margin-top: 200px;
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
 .navi5 a {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
@@ -882,12 +970,31 @@ li p
     background: #4b4b4b;
 }
 
+.navi5 .detail5-2 dt{
+    padding: 15px 3px;
+    background: #4b4b4b;
+}
+.navi5 .detail5-2 dt.dt-bottom{
+    padding: 15px 3px;
+    background: #4b4b4b;
+    border-bottom: solid 1px #fff;
+}
+
+.navi5 .detail5-2 {
+    display: none;
+
+    
+}
+.navi5 .detail5-2.detail5-2denote5-2{
+    display: initial;
+}
+
 .navi6 
 {
   display: block;
   position: fixed;
-  left: -200px;
-  width: 200px;
+  left: -240px;
+  width: 240px;
   height: 1040px;
   color: #fff;
   padding: 60px 25px;
@@ -905,7 +1012,8 @@ li p
 }
 .navi6 h2
 {
-    margin-top: 100px;
+    margin-top: 200px;
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
 .navi6 a {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
@@ -943,12 +1051,31 @@ li p
     background: #4b4b4b;
 }
 
+.navi6 .detail6-2 dt{
+    padding: 15px 3px;
+    background: #4b4b4b;
+}
+.navi6 .detail6-2 dt.dt-bottom{
+    padding: 15px 3px;
+    background: #4b4b4b;
+    border-bottom: solid 1px #fff;
+}
+
+.navi6 .detail6-2 {
+    display: none;
+
+    
+}
+.navi6 .detail6-2.detail6-2denote6-2{
+    display: initial;
+}
+
 .navi7 
 {
   display: block;
   position: fixed;
-  left: -200px;
-  width: 200px;
+  left: -240px;
+  width: 240px;
   height: 1040px;
   color: #fff;
   padding: 60px 25px;
@@ -966,7 +1093,8 @@ li p
 }
 .navi7 h2
 {
-    margin-top: 100px;
+    margin-top: 200px;
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
 .navi7 a {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
@@ -1004,12 +1132,30 @@ li p
     background: #4b4b4b;
 }
 
+.navi7 .detail7-2 dt{
+    padding: 15px 3px;
+    background: #4b4b4b;
+}
+.navi7 .detail7-2 dt.dt-bottom{
+    padding: 15px 3px;
+    background: #4b4b4b;
+    border-bottom: solid 1px #fff;
+}
+
+.navi7 .detail7-2 {
+    display: none;   
+}
+
+.navi7 .detail7-2.detail7-2denote7-2{
+    display: initial;
+}
+
 .navi8 
 {
   display: block;
   position: fixed;
-  left: -200px;
-  width: 200px;
+  left: -240px;
+  width: 240px;
   height: 1040px;
   color: #fff;
   padding: 60px 25px;
@@ -1027,7 +1173,8 @@ li p
 }
 .navi8 h2
 {
-    margin-top: 100px;
+    margin-top: 200px;
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
 .navi8 a {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
@@ -1064,12 +1211,31 @@ li p
     background: #4b4b4b;
 }
 
+.navi8 .detail8-2 dt{
+    padding: 15px 3px;
+    background: #4b4b4b;
+}
+.navi8 .detail8-2 dt.dt-bottom{
+    padding: 15px 3px;
+    background: #4b4b4b;
+    border-bottom: solid 1px #fff;
+}
+
+.navi8 .detail8-2 {
+    display: none;
+
+    
+}
+.navi8 .detail8-2.detail8-2denote8-2{
+    display: initial;
+}
+
 .navi9 
 {
   display: block;
   position: fixed;
-  left: -200px;
-  width: 200px;
+  left: -240px;
+  width: 240px;
   height: 1040px;
   color: #fff;
   padding: 60px 25px;
@@ -1087,7 +1253,8 @@ li p
 }
 .navi9 h2
 {
-    margin-top: 100px;
+    margin-top: 200px;
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
 .navi9 a {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
@@ -1124,12 +1291,31 @@ li p
     background: #4b4b4b;
 }
 
+.navi9 .detail9-2 dt{
+    padding: 15px 3px;
+    background: #4b4b4b;
+}
+.navi9 .detail9-2 dt.dt-bottom{
+    padding: 15px 3px;
+    background: #4b4b4b;
+    border-bottom: solid 1px #fff;
+}
+
+.navi9 .detail9-2 {
+    display: none;
+
+    
+}
+.navi9 .detail9-2.detail9-2denote9-2{
+    display: initial;
+}
+
 .navi10 
 {
   display: block;
   position: fixed;
-  left: -200px;
-  width: 200px;
+  left: -240px;
+  width: 240px;
   height: 1040px;
   color: #fff;
   padding: 60px 25px;
@@ -1147,7 +1333,8 @@ li p
 }
 .navi10 h2
 {
-    margin-top: 100px;
+    margin-top: 200px;
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
 .navi10 a {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
@@ -1182,5 +1369,29 @@ li p
 .navi10 .detail10 dt{
     padding: 15px 2px;
     background: #4b4b4b;
+}
+
+.navi10 .detail10-2 dt{
+    padding: 15px 3px;
+    background: #4b4b4b;
+}
+.navi10 .detail10-2 dt.dt-bottom{
+    padding: 15px 3px;
+    background: #4b4b4b;
+    border-bottom: solid 1px #fff;
+}
+
+.navi10 .detail10-2 {
+    display: none;
+
+    
+}
+.navi10 .detail10-2.detail10-2denote10-2{
+    display: initial;
+}
+
+.navi10 .detail10 dt.RF-dt-top
+{
+    border-top: solid 1px #fff;
 }
 
