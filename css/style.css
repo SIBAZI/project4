@@ -677,7 +677,6 @@ li p
     border-top: solid 1px #fff;
 }
 .navi2 .detail2 {
-    padding: 20px 1px;
     display: none;
 }
 .navi2 .detail2.detail2denote2{
@@ -686,6 +685,7 @@ li p
 
 .navi2 .detail2 dt{
     padding: 15px 2px;
+    background: #4b4b4b;
 }
 
 .navi3 
@@ -732,7 +732,6 @@ li p
     border-top: solid 1px #fff;
 }
 .navi3 .detail3 {
-    padding: 20px 1px;
     display: none;
 }
 .navi3 .detail3.detail3denote3{
@@ -741,6 +740,7 @@ li p
 
 .navi3 .detail3 dt{
     padding: 15px 2px;
+    background: #4b4b4b;
 }
 
 .navi4 
@@ -787,7 +787,6 @@ li p
     border-top: solid 1px #fff;
 }
 .navi4 .detail4 {
-    padding: 20px 1px;
     display: none;
 }
 .navi4 .detail4.detail4denote4{
@@ -796,6 +795,7 @@ li p
 
 .navi4 .detail4 dt{
     padding: 15px 2px;
+    background: #4b4b4b;
 }
 
 .navi5
@@ -842,7 +842,6 @@ li p
     border-top: solid 1px #fff;
 }
 .navi5 .detail5 {
-    padding: 20px 1px;
     display: none;
 }
 .navi5 .detail5.detail5denote5{
@@ -851,6 +850,7 @@ li p
 
 .navi5 .detail5 dt{
     padding: 15px 2px;
+    background: #4b4b4b;
 }
 
 .navi6 
@@ -897,7 +897,6 @@ li p
     border-top: solid 1px #fff;
 }
 .navi6 .detail6 {
-    padding: 20px 1px;
     display: none;
 }
 .navi6 .detail6.detail6denote6{
@@ -906,6 +905,7 @@ li p
 
 .navi6 .detail6 dt{
     padding: 15px 2px;
+    background: #4b4b4b;
 }
 
 .navi7 
@@ -952,7 +952,6 @@ li p
     border-top: solid 1px #fff;
 }
 .navi7 .detail7 {
-    padding: 20px 1px;
     display: none;
 }
 .navi7 .detail7.detail7denote7{
@@ -961,6 +960,7 @@ li p
 
 .navi7 .detail7 dt{
     padding: 15px 2px;
+    background: #4b4b4b;
 }
 
 .navi8 
@@ -1007,7 +1007,6 @@ li p
     border-top: solid 1px #fff;
 }
 .navi8 .detail8 {
-    padding: 20px 1px;
     display: none;
 }
 .navi8 .detail8.detail8denote8{
@@ -1016,6 +1015,7 @@ li p
 
 .navi8 .detail8 dt{
     padding: 15px 2px;
+    background: #4b4b4b;
 }
 
 .navi9 
@@ -1062,7 +1062,6 @@ li p
     border-top: solid 1px #fff;
 }
 .navi9 .detail9 {
-    padding: 20px 1px;
     display: none;
 }
 .navi9 .detail9.detail9denote9{
@@ -1071,6 +1070,7 @@ li p
 
 .navi9 .detail9 dt{
     padding: 15px 2px;
+    background: #4b4b4b;
 }
 
 .navi10 
@@ -1117,7 +1117,6 @@ li p
     border-top: solid 1px #fff;
 }
 .navi10 .detail10 {
-    padding: 20px 1px;
     display: none;
 }
 .navi10 .detail10.detail10denote10{
@@ -1126,5 +1125,6 @@ li p
 
 .navi10 .detail10 dt{
     padding: 15px 2px;
+    background: #4b4b4b;
 }
 
