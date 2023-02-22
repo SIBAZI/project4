@@ -529,7 +529,7 @@ body
    top: 25px;
    transform-origin: 250px;
    background: #ffffff;
-   transition: 0.8s;
+   transition: 1s;
    transform: rotate(calc(360deg/10 * var(--i)));
    list-style: none;
    width: 10px;
