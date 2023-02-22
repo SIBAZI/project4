@@ -543,12 +543,12 @@ body
  .catalogue.action li 
 {
     position: absolute;
-    left: -280px;
+    left: -265px;
     top: 30px;
     list-style: none;
     transition: 1s;
     transform: rotate(calc(360deg/10 * var(--i)));
-    transform-origin: 390px;
+    transform-origin: 370px;
     scale: 1;
     width: 165px;
     height: 165px;
