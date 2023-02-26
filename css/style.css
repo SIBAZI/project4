@@ -27,7 +27,6 @@ body
 .catalogue.action li img{
     scale: 1;
 }
-
 .car-name-CX-3{
     position: absolute;
     top:10px;
@@ -558,7 +557,6 @@ body
     align-items: center;
     border-radius: 50%;
     box-shadow: 0 3px 4px rgba(0,0,0,0.20);
-    
 }
 li p
 {
