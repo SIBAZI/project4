@@ -8,11 +8,6 @@
 
 
     //    second action
-
-
-
-
-
     //  bookのマークを押したとき
     let catalogue = document.querySelector('.catalogue');
 
