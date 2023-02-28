@@ -649,3 +649,7 @@
     }
     t = now;
     }, false);
+
+    // スクロールキャンセル
+    document.addEventListener('touchmove', noscroll, {passive: false});
+    document.addEventListener('wheel', noscroll, {passive: false});
