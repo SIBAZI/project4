@@ -1,14 +1,14 @@
-
+    
+    // farst action
     let navigation = document.querySelector('.navigation');
-    console.log(navigation)
     let close = document.querySelector('.close');
+
     navigation.onclick = function () {
       navigation.classList.add('active');
     }
 
 
-    //    second action
-    //  bookのマークを押したとき
+    //  普通車アイコンを押したとき
     let catalogue = document.querySelector('.catalogue');
 
 
@@ -53,7 +53,9 @@
       main.classList.remove('slide');
 
     }
-    // liを押しても巻き戻さないようにする
+
+
+    // 普通車アイコンを押した後の動き
     let around1 = document.querySelector('.around1');
     let around2 = document.querySelector('.around2');
     let around3 = document.querySelector('.around3');
@@ -65,7 +67,6 @@
     let around9 = document.querySelector('.around9');
     let around10 = document.querySelector('.around10');
 
-    // three action
     let main = document.querySelector('.main');
 
     let navi1 = document.querySelector('.navi1');
@@ -101,7 +102,7 @@
     let detail9 = document.querySelector('.detail9');
     let detail10 = document.querySelector('.detail10');
 
-
+    // CX-3を押したとき
     around1.onclick = function(e) {
       e.stopPropagation();
 
@@ -129,6 +130,8 @@
 
     }
 
+
+    // CX-30を押したとき
     around2.onclick = function(e) {
       e.stopPropagation();
 
@@ -155,6 +158,7 @@
 
     }
 
+    // MX-30を押したとき
     around3.onclick = function(e) {
       e.stopPropagation();
 
@@ -181,6 +185,7 @@
 
     }
 
+    // CX-5を押したとき
     around4.onclick = function(e) {
       e.stopPropagation();
 
@@ -207,6 +212,7 @@
 
     }
 
+    // CX-60を押したとき
     around5.onclick = function(e) {
       e.stopPropagation();
 
@@ -233,6 +239,7 @@
 
     }
 
+    // CX-8を押したとき
     around6.onclick = function(e) {
       e.stopPropagation();
       
@@ -259,6 +266,7 @@
 
     }
 
+    // MAZDA6を押したとき
     around7.onclick = function(e) {
       e.stopPropagation();
 
@@ -285,6 +293,7 @@
 
     }
 
+    // MAZDA3を押したとき
     around8.onclick = function(e) {
       e.stopPropagation();
 
@@ -311,6 +320,7 @@
 
     }
 
+    // MAZDA2を押したとき
     around9.onclick = function(e) {
       e.stopPropagation();
 
@@ -337,6 +347,7 @@
 
     }
 
+    // ROADSTERを押したとき
     around10.onclick = function(e) {
       e.stopPropagation();
 
@@ -367,7 +378,7 @@
 
 
 
-
+    // CX-3のカタログを押した時の操作
     cataloguemenu1.onclick = function(){
      if(!detail1.classList.contains('detail1denote1')){
       detail1.classList.add('detail1denote1');
@@ -379,6 +390,7 @@
 
     }
 
+    // CX-30のカタログを押した時の操作
     cataloguemenu2.onclick = function(){
      if(!detail2.classList.contains('detail2denote2')){
       detail2.classList.add('detail2denote2');
@@ -390,6 +402,7 @@
 
     }
 
+    // MX-30のカタログを押した時の操作
     cataloguemenu3.onclick = function(){
      if(!detail3.classList.contains('detail3denote3')){
       detail3.classList.add('detail3denote3');
@@ -401,6 +414,7 @@
 
     }
 
+    // CX-5のカタログを押した時の操作
     cataloguemenu4.onclick = function(){
      if(!detail4.classList.contains('detail4denote4')){
       detail4.classList.add('detail4denote4');
@@ -412,6 +426,7 @@
 
     }
 
+    // CX-60のカタログを押した時の操作
     cataloguemenu5.onclick = function(){
      if(!detail5.classList.contains('detail5denote5')){
       detail5.classList.add('detail5denote5');
@@ -423,6 +438,7 @@
 
     }
 
+    // CX-8のカタログを押した時の操作
     cataloguemenu6.onclick = function(){
      if(!detail6.classList.contains('detail6denote6')){
       detail6.classList.add('detail6denote6');
@@ -434,6 +450,7 @@
 
     }
 
+    // MAZDA6のカタログを押した時の操作
     cataloguemenu7.onclick = function(){
      if(!detail7.classList.contains('detail7denote7')){
       detail7.classList.add('detail7denote7');
@@ -445,6 +462,7 @@
 
     }
 
+    // MAZDA3のカタログを押した時の操作
     cataloguemenu8.onclick = function(){
      if(!detail8.classList.contains('detail8denote8')){
       detail8.classList.add('detail8denote8');
@@ -456,6 +474,7 @@
 
     }
 
+    // MAZDA2のカタログを押した時の操作
     cataloguemenu9.onclick = function(){
      if(!detail9.classList.contains('detail9denote9')){
       detail9.classList.add('detail9denote9');
@@ -467,6 +486,7 @@
 
     }
 
+    // ROADSTERのカタログを押した時の操作
     cataloguemenu10.onclick = function(){
      if(!detail10.classList.contains('detail10denote10')){
       detail10.classList.add('detail10denote10');
@@ -477,6 +497,7 @@
      detail10_2.classList.remove('detail10-2denote10-2');
 
     }
+
 
     let cataloguemenu1_2 =document.querySelector('.cataloguemenu1-2');
     let cataloguemenu2_2 =document.querySelector('.cataloguemenu2-2');
@@ -500,6 +521,8 @@
     let detail9_2 = document.querySelector('.detail9-2');
     let detail10_2 = document.querySelector('.detail10-2');
 
+    
+    // CX-3の主要緒元・装備を押した時の操作
     cataloguemenu1_2.onclick = function(){
       if(!detail1_2.classList.contains('detail1-2denote1-2')){
         detail1_2.classList.add('detail1-2denote1-2');
@@ -510,6 +533,8 @@
       detail1.classList.remove('detail1denote1');
 
     }
+
+    // CX-30の主要緒元・装備を押した時の操作
     cataloguemenu2_2.onclick = function(){
       if(!detail2_2.classList.contains('detail2-2denote2-2')){
         detail2_2.classList.add('detail2-2denote2-2');
@@ -520,6 +545,8 @@
       detail2.classList.remove('detail2denote2');
 
     }
+
+    // MX-30の主要緒元・装備を押した時の操作
     cataloguemenu3_2.onclick = function(){
       if(!detail3_2.classList.contains('detail3-2denote3-2')){
         detail3_2.classList.add('detail3-2denote3-2');
@@ -530,6 +557,8 @@
       detail3.classList.remove('detail3denote3');
 
     }
+
+    // CX-5の主要緒元・装備を押した時の操作
     cataloguemenu4_2.onclick = function(){
       if(!detail4_2.classList.contains('detail4-2denote4-2')){
         detail4_2.classList.add('detail4-2denote4-2');
@@ -540,6 +569,8 @@
       detail4.classList.remove('detail4denote4');
 
     }
+
+    // CX-60の主要緒元・装備を押した時の操作
     cataloguemenu5_2.onclick = function(){
       if(!detail5_2.classList.contains('detail5-2denote5-2')){
         detail5_2.classList.add('detail5-2denote5-2');
@@ -550,6 +581,8 @@
       detail5.classList.remove('detail5denote5');
 
     }
+
+    // CX-8の主要緒元・装備を押した時の操作
     cataloguemenu6_2.onclick = function(){
       if(!detail6_2.classList.contains('detail6-2denote6-2')){
         detail6_2.classList.add('detail6-2denote6-2');
@@ -560,6 +593,8 @@
       detail6.classList.remove('detail6denote6');
 
     }
+
+    // MAZDA6の主要緒元・装備を押した時の操作
     cataloguemenu7_2.onclick = function(){
       if(!detail7_2.classList.contains('detail7-2denote7-2')){
         detail7_2.classList.add('detail7-2denote7-2');
@@ -570,6 +605,8 @@
       detail7.classList.remove('detail7denote7');
 
     }
+
+    // MAZDA3の主要緒元・装備を押した時の操作
     cataloguemenu8_2.onclick = function(){
       if(!detail8_2.classList.contains('detail8-2denote8-2')){
         detail8_2.classList.add('detail8-2denote8-2');
@@ -580,6 +617,8 @@
       detail8.classList.remove('detail8denote8');
 
     }
+
+    // MAZDA2の主要緒元・装備を押した時の操作
     cataloguemenu9_2.onclick = function(){
       if(!detail9_2.classList.contains('detail9-2denote9-2')){
         detail9_2.classList.add('detail9-2denote9-2');
@@ -590,6 +629,8 @@
       detail9.classList.remove('detail9denote9');
 
     }
+
+    // ROADSTERの主要緒元・装備を押した時の操作
     cataloguemenu10_2.onclick = function(){
       if(!detail10_2.classList.contains('detail10-2denote10-2')){
         detail10_2.classList.add('detail10-2denote10-2');
