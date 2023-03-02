@@ -489,6 +489,13 @@ body
     color: #ff0000;
     filter: drop-shadow(0 0 2px #ffffff)drop-shadow(0 0 5px #ffffff)drop-shadow(0 0 15px #ffffff);
 }
+
+.main .navigation.active span.kinou7
+{
+    opacity: 0.5;
+}
+
+
  .close 
 {
     position: absolute;
