@@ -1,427 +1,33 @@
-
-*
-{
+/* 基盤設定 */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html
-{
+
+html {
     overflow: hidden;
 }
-body
-{
+
+body {
     overflow: hidden;
 }
-li{
+
+li {
     list-style: none;
 }
-body
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: #E7E7E7;
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #E7E7E7;
 
 }
-.catalogue li img{
-    position:relative;
-    transform: rotate(calc(360deg/-10 * var(--i)));
-    scale: 0;
-    transition: 0.4s;
-    
-}
-.catalogue.action li img{
-    scale: 1;
-}
 
-.car-name-CX-3{
-    position: absolute;
-    top:10px;
-    left:auto;
-    font-size:35px;
-    font-weight: 20px;
-    color: #000000;
-    padding:0;
-    margin:0;
-  }
-  
-.car-size-CX-3{
-    position: absolute;
-    top:117px;
-    left:auto;
-    font-size:14px;
-    font-weight: 20px;
-    color: #000000;
-    padding:0;
-    margin:0;
-}
-.catalogue li .car-name-CX-3
-{
-    scale: 0;
-}
-.catalogue.action li .car-name-CX-3
-{
-    scale: 1;
-}
-.catalogue li .car-size-CX-3
-{
-    scale: 0;
-}
-.catalogue.action li .car-size-CX-3
-{
-    scale: 1;
-}
-.car-name-CX-30
-{
-    position: absolute;
-    top:20px;
-    left: 5px;
-    font-size:35px;
-    font-weight: 20px;
-    color: #000000;
-    padding:0;
-    margin:0;
-}
-.car-size-CX-30{
-    position: absolute;
-    top:111px;
-    left:48px;
-    font-size:14px;
-    font-weight: 20px;
-    color: #000000;
-    padding:0;
-    margin:0;
-}
-.catalogue li .car-name-CX-30
-{
-    scale: 0;
-}
-.catalogue.action li .car-name-CX-30
-{
-    scale: 1;
-}
-.catalogue li .car-size-CX-30
-{
-    scale: 0;
-}
-.catalogue.action li .car-size-CX-30
-{
-    scale: 1;
-}
-
-.car-name-MX-30
-{
-    position: absolute;
-    top:45px;
-    left: -15px;
-    font-size:35px;
-    font-weight: 20px;
-    color: #000000;
-    padding:0;
-    margin:0;
-}
-.car-size-MX-30
-{
-    position: absolute;
-    top:88px;
-    left:65px;
-    font-size:14px;
-    font-weight: 20px;
-    color: #000000;
-    padding:0;
-    margin:0;
-}
-.catalogue li .car-name-MX-30
-{
-    scale: 0;
-}
-.catalogue.action li .car-name-MX-30
-{
-    scale: 1;
-}
-.catalogue li .car-size-MX-30
-{
-    scale: 0;
-}
-.catalogue.action li .car-size-MX-30
-{
-    scale: 1;
-}
-.car-name-CX-5
-{
-    position: absolute;
-    top:77px;
-    left: -3px;
-    font-size:35px;
-    font-weight: 20px;
-    color: #000000;
-    padding:0;
-    margin:0;
-}
-.car-size-CX-5
-{
-    position: absolute;
-    top:60px;
-    left:65px;
-    font-size:14px;
-    font-weight: 20px;
-    color: #000000;
-    padding:0;
-    margin:0;
-}
-.catalogue li .car-name-CX-5
-{
-    scale: 0;
-}
-.catalogue.action li .car-name-CX-5
-{
-    scale: 1;
-}
-.catalogue li .car-size-CX-5
-{
-    scale: 0;
-}
-.catalogue.action li .car-size-CX-5
-{
-    scale: 1;
-}
-
-.car-name-CX-60
-{
-    position: absolute;
-    top:100px;
-    left: 10px;
-    font-size:35px;
-    font-weight: 20px;
-    color: #000000;
-    padding:0;
-    margin:0;
-}
-.car-size-CX-60
-{
-    position: absolute;
-    top:35px;
-    left:47px;
-    font-size:14px;
-    font-weight: 20px;
-    color: #000000;
-    padding:0;
-    margin:0;
-}
-.catalogue li .car-name-CX-60
-{
-    scale: 0;
-}
-.catalogue.action li .car-name-CX-60
-{
-    scale: 1;
-}
-.catalogue li .car-size-CX-60
-{
-    scale: 0;
-}
-.catalogue.action li .car-size-CX-60
-{
-    scale: 1;
-}
-.car-name-CX-8
-{
-    position: absolute;
-    top:112px;
-    left: 47px;
-    font-size:35px;
-    font-weight: 20px;
-    color: #000000;
-    padding:0;
-    margin:0;
-}
-.car-size-CX-8
-{
-    position: absolute;
-    top:28px;
-    left:20px;
-    font-size:14px;
-    font-weight: 20px;
-    color: #000000;
-    padding:0;
-    margin:0;
-}
-.catalogue li .car-name-CX-8
-{
-    scale: 0;
-}
-.catalogue.action li .car-name-CX-8
-{
-    scale: 1;
-}
-.catalogue li .car-size-CX-8
-{
-    scale: 0;
-}
-.catalogue.action li .car-size-CX-8
-{
-    scale: 1;
-}
-
-.car-name-MAZDA6
-{
-    position: absolute;
-    top:95px;
-    left: 47px;
-    font-size:30px;
-    font-weight: 20px;
-    color: #000000;
-    padding:0;
-    margin:0;
-}
-.car-size-MAZDA6
-{
-    position: absolute;
-    top:29px;
-    left:-3px;
-    font-size:11px;
-    font-weight: 20px;
-    color: #000000;
-    padding:0;
-    margin:0;
-}
-.catalogue li .car-name-MAZDA6
-{
-    scale: 0;
-}
-.catalogue.action li .car-name-MAZDA6
-{
-    scale: 1;
-}
-.catalogue li .car-size-MAZDA6
-{
-    scale: 0;
-}
-.catalogue.action li .car-size-MAZDA6
-{
-    scale: 1;
-}
-.car-name-MAZDA3
-{
-    position: absolute;
-    top:74px;
-    left: 61px;
-    font-size:30px;
-    font-weight: 20px;
-    color: #000000;
-    padding:0;
-    margin:0;
-}
-.car-size-MAZDA3
-{
-    position: absolute;
-    top:52px;
-    left:-20px;
-    font-size:11px;
-    font-weight: 20px;
-    color: #000000;
-    padding:0;
-    margin:0;
-}
-.catalogue li .car-name-MAZDA3
-{
-    scale: 0;
-}
-.catalogue.action li .car-name-MAZDA3
-{
-    scale: 1;
-}
-.catalogue li .car-size-MAZDA3
-{
-    scale: 0;
-}
-.catalogue.action li .car-size-MAZDA3
-{
-    scale: 1;
-}
-
-.car-name-MAZDA2
-{
-    position: absolute;
-    top: 48px;
-    left: 61px;
-    font-size:30px;
-    font-weight: 20px;
-    color: #000000;
-    padding:0;
-    margin:0;
-}
-.car-size-MAZDA2
-{
-    position: absolute;
-    top:87px;
-    left:-23px;
-    font-size:14px;
-    font-weight: 20px;
-    color: #000000;
-    padding:0;
-    margin:0;
-}
-.catalogue li .car-name-MAZDA2
-{
-    scale: 0;
-}
-.catalogue.action li .car-name-MAZDA2
-{
-    scale: 1;
-}
-.catalogue li .car-size-MAZDA2
-{
-    scale: 0;
-}
-.catalogue.action li .car-size-MAZDA2
-{
-    scale: 1;
-}
-
-.car-name-ROADSTER
-{
-    position: absolute;
-    top: 33px;
-    left: 43px;
-    font-size:25px;
-    font-weight: 20px;
-    color: #000000;
-    padding:0;
-    margin:0;
-}
-.car-size-ROADSTER
-{
-    position: absolute;
-    top:112px;
-    left:-8px;
-    font-size:14px;
-    font-weight: 20px;
-    color: #000000;
-    padding:0;
-    margin:0;
-}
-.catalogue li .car-name-ROADSTER
-{
-    scale: 0;
-}
-.catalogue.action li .car-name-ROADSTER
-{
-    scale: 1;
-}
-.catalogue li .car-size-ROADSTER
-{
-    scale: 0;
-}
-.catalogue.action li .car-size-ROADSTER
-{
-    scale: 1;
-}
-
-.main
-{
+/* main */
+.main {
     position: relative;
     display: flex;
     justify-content: center;
@@ -433,10 +39,10 @@ body
     /* slide */
     left: 0;
     transition: all .5s;
-    
+
 }
-.main .navigation
-{
+
+.main .navigation {
     position: relative;
     width: 40px;
     height: 40px;
@@ -446,58 +52,48 @@ body
     align-items: center;
     transition: 0.5s;
 }
-.main .navigation span
-{
+
+.main .navigation span {
     position: absolute;
     width: 15px;
     height: 15px;
     background: #8d8d8d;
-    transform: translate(calc(25px * var(--x)),calc(25px
-    * var(--y)));
+    transform: translate(calc(25px * var(--x)), calc(25px * var(--y)));
     border-radius: 50%;
-    transition: transform 0.7s, width 0.1s,height 0.3s,
-    background 0.5s;
+    transition: transform 0.7s, width 0.1s, height 0.3s,
+        background 0.5s;
     transition-delay: calc(0.1s * var(--i));
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.main .navigation.active span
-{
+.main .navigation.active span {
     width: 60px;
     height: 60px;
     background: #ffffff;
-    transform: translate(calc(80px * var(--x)),calc(80px
-    * var(--y)));
-    box-shadow: 0 3px 4px rgba(0,0,0,0.20);
+    transform: translate(calc(80px * var(--x)), calc(80px * var(--y)));
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.20);
 }
 
-.main .navigation span ion-icon
-{
+.main .navigation span ion-icon {
     transition: 1.3s;
     font-size: 0em;
     color: #555555;
 }
-.main .navigation.active span ion-icon
-{
+
+.main .navigation.active span ion-icon {
     font-size: 1.9em;
     transform: rotate(360deg);
 }
-.main .navigation.active span:hover ion-icon
-{
+
+.main .navigation.active span:hover ion-icon {
     color: #ff0000;
     filter: drop-shadow(0 0 2px #ffffff)drop-shadow(0 0 5px #ffffff)drop-shadow(0 0 15px #ffffff);
 }
 
-.main .navigation.active span.kinou7
-{
-    opacity: 0.5;
-}
-
-
- .close 
-{
+/* 真ん中✕ボタン */
+.close {
     position: absolute;
     width: 15px;
     height: 15px;
@@ -510,53 +106,54 @@ body
     align-items: center;
     border-radius: 50%;
 }
-.main .navigation.active   ~ .close
-{
+
+.main .navigation.active~.close {
     width: 60px;
     height: 60px;
     pointer-events: initial;
     transition-delay: 0.8s;
     background: #ffffff;
-    box-shadow: 0 3px 4px rgba(0,0,0,0.20);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.20);
 }
-.main .navigation ~ .close ion-icon
-{
+
+.main .navigation~.close ion-icon {
     font-size: 2em;
     scale: 0;
     color: #555555;
     transition: 0.5s;
 }
-.main .navigation.active ~ .close ion-icon
-{
+
+.main .navigation.active~.close ion-icon {
     scale: 1;
     transition-delay: 1s;
 }
-.main .navigation .catalogue
-{
-  box-shadow: 0 3px 4px rgba(0,0,0,0.15);  
+
+/* 普通車アイコン */
+.main .navigation .catalogue {
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
 }
-.catalogue li 
-{
-   color: #000000;
-   scale: 0; 
-   position:absolute;
-   left: -225px;
-   top: 25px;
-   transform-origin: 250px;
-   background: #ffffff;
-   transition: 1s;
-   transform: rotate(calc(360deg/10 * var(--i)));
-   list-style: none;
-   width: 10px;
-   height: 10px;
-   justify-content: center;
-   align-items: center;
-   border-radius: 50%;
-   box-shadow: 0 3px 4px rgba(0,0,0,0.20);
-   
+
+.catalogue li {
+    color: #000000;
+    scale: 0;
+    position: absolute;
+    left: -225px;
+    top: 25px;
+    transform-origin: 250px;
+    background: #ffffff;
+    transition: 1s;
+    transform: rotate(calc(360deg/10 * var(--i)));
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.20);
+
 }
- .catalogue.action li 
-{
+
+.catalogue.action li {
     position: absolute;
     left: -265px;
     top: 30px;
@@ -572,64 +169,494 @@ body
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    box-shadow: 0 3px 4px rgba(0,0,0,0.20);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.20);
 }
-li p
-{
-    position:relative;
-    display: flex;
+
+/* 普通車車種画像 */
+.catalogue li img {
+    position: relative;
     transform: rotate(calc(360deg/-10 * var(--i)));
-    font-size: 19px;
-    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
-    text-decoration: none;
-} 
+    scale: 0;
+    transition: 0.4s;
 
-.main.slide
-{
-    left: 130px;
-    top: 0px;
+}
+
+.catalogue.action li img {
+    scale: 1;
+}
+
+/* 車種名、大きさ CX-3*/
+.car-name-CX-3 {
+    position: absolute;
+    top: 10px;
+    left: auto;
+    font-size: 35px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-10 * var(--i)));
+
+}
+
+.car-size-CX-3 {
+    position: absolute;
+    top: 117px;
+    left: auto;
+    font-size: 12px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-10 * var(--i)));
+
+}
+
+.catalogue li .car-name-CX-3 {
+    scale: 0;
+}
+
+.catalogue.action li .car-name-CX-3 {
+    scale: 1;
+}
+
+.catalogue li .car-size-CX-3 {
+    scale: 0;
+}
+
+.catalogue.action li .car-size-CX-3 {
+    scale: 1;
+}
+
+/* 車種名、大きさ CX-30*/
+.car-name-CX-30 {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    font-size: 35px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-10 * var(--i)));
+
+}
+
+.car-size-CX-30 {
+    position: absolute;
+    top: 111px;
+    left: 48px;
+    font-size: 12px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-10 * var(--i)));
+}
+
+.catalogue li .car-name-CX-30 {
+    scale: 0;
+}
+
+.catalogue.action li .car-name-CX-30 {
+    scale: 1;
+}
+
+.catalogue li .car-size-CX-30 {
+    scale: 0;
+}
+
+.catalogue.action li .car-size-CX-30 {
+    scale: 1;
+}
+
+/* 車種名、大きさ MX-30*/
+.car-name-MX-30 {
+    position: absolute;
+    top: 45px;
+    left: -15px;
+    font-size: 35px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-10 * var(--i)));
+
+}
+
+.car-size-MX-30 {
+    position: absolute;
+    top: 88px;
+    left: 65px;
+    font-size: 12px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-10 * var(--i)));
+
+}
+
+.catalogue li .car-name-MX-30 {
+    scale: 0;
+}
+
+.catalogue.action li .car-name-MX-30 {
+    scale: 1;
+}
+
+.catalogue li .car-size-MX-30 {
+    scale: 0;
+}
+
+.catalogue.action li .car-size-MX-30 {
+    scale: 1;
+}
+
+/* 車種名、大きさ CX-5*/
+.car-name-CX-5 {
+    position: absolute;
+    top: 75px;
+    left: -2px;
+    font-size: 35px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-10 * var(--i)));
+
+}
+
+.car-size-CX-5 {
+    position: absolute;
+    top: 59px;
+    left: 67px;
+    font-size: 12px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-10 * var(--i)));
+
+}
+
+.catalogue li .car-name-CX-5 {
+    scale: 0;
+}
+
+.catalogue.action li .car-name-CX-5 {
+    scale: 1;
+}
+
+.catalogue li .car-size-CX-5 {
+    scale: 0;
+}
+
+.catalogue.action li .car-size-CX-5 {
+    scale: 1;
+}
+
+/* 車種名、大きさ CX-60*/
+.car-name-CX-60 {
+    position: absolute;
+    top: 96px;
+    left: 3px;
+    font-size: 35px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-10 * var(--i)));
+
+}
+
+.car-size-CX-60 {
+    position: absolute;
+    top: 35px;
+    left: 47px;
+    font-size: 12px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-10 * var(--i)));
+
+}
+
+.catalogue li .car-name-CX-60 {
+    scale: 0;
+}
+
+.catalogue.action li .car-name-CX-60 {
+    scale: 1;
+}
+
+.catalogue li .car-size-CX-60 {
+    scale: 0;
+}
+
+.catalogue.action li .car-size-CX-60 {
+    scale: 1;
+}
+
+/* 車種名、大きさ CX-8*/
+.car-name-CX-8 {
+    position: absolute;
+    top: 105px;
+    left: 43px;
+    font-size: 35px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-10 * var(--i)));
+
+}
+
+.car-size-CX-8 {
+    position: absolute;
+    top: 28px;
+    left: 20px;
+    font-size: 12px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-10 * var(--i)));
+
+}
+
+.catalogue li .car-name-CX-8 {
+    scale: 0;
+}
+
+.catalogue.action li .car-name-CX-8 {
+    scale: 1;
+}
+
+.catalogue li .car-size-CX-8 {
+    scale: 0;
+}
+
+.catalogue.action li .car-size-CX-8 {
+    scale: 1;
+}
+
+/* 車種名、大きさ MAZDA6*/
+.car-name-MAZDA6 {
+    position: absolute;
+    top: 91px;
+    left: 42px;
+    font-size: 30px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-10 * var(--i)));
+
+}
+
+.car-size-MAZDA6 {
+    position: absolute;
+    top: 27px;
+    left: -4px;
+    font-size: 9px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-10 * var(--i)));
+
+}
+
+.catalogue li .car-name-MAZDA6 {
+    scale: 0;
+}
+
+.catalogue.action li .car-name-MAZDA6 {
+    scale: 1;
+}
+
+.catalogue li .car-size-MAZDA6 {
+    scale: 0;
+}
+
+.catalogue.action li .car-size-MAZDA6 {
+    scale: 1;
+}
+
+/* 車種名、大きさ MAZDA3*/
+.car-name-MAZDA3 {
+    position: absolute;
+    top: 73px;
+    left: 57px;
+    font-size: 30px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-10 * var(--i)));
+
+}
+
+.car-size-MAZDA3 {
+    position: absolute;
+    top: 52px;
+    left: -20px;
+    font-size: 9px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-10 * var(--i)));
+
+}
+
+.catalogue li .car-name-MAZDA3 {
+    scale: 0;
+}
+
+.catalogue.action li .car-name-MAZDA3 {
+    scale: 1;
+}
+
+.catalogue li .car-size-MAZDA3 {
+    scale: 0;
+}
+
+.catalogue.action li .car-size-MAZDA3 {
+    scale: 1;
+}
+
+/* 車種名、大きさ MAZDA2*/
+.car-name-MAZDA2 {
+    position: absolute;
+    top: 48px;
+    left: 57px;
+    font-size: 30px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-10 * var(--i)));
+
+}
+
+.car-size-MAZDA2 {
+    position: absolute;
+    top: 87px;
+    left: -23px;
+    font-size: 12px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-10 * var(--i)));
+
+}
+
+.catalogue li .car-name-MAZDA2 {
+    scale: 0;
+}
+
+.catalogue.action li .car-name-MAZDA2 {
+    scale: 1;
+}
+
+.catalogue li .car-size-MAZDA2 {
+    scale: 0;
+}
+
+.catalogue.action li .car-size-MAZDA2 {
+    scale: 1;
+}
+
+/* 車種名、大きさ ROADSTER*/
+.car-name-ROADSTER {
+    position: absolute;
+    top: 35px;
+    left: 36px;
+    font-size: 25px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-10 * var(--i)));
+
+}
+
+.car-size-ROADSTER {
+    position: absolute;
+    top: 112px;
+    left: -8px;
+    font-size: 12px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-10 * var(--i)));
+
+}
+
+.catalogue li .car-name-ROADSTER {
+    scale: 0;
+}
+
+.catalogue.action li .car-name-ROADSTER {
+    scale: 1;
+}
+
+.catalogue li .car-size-ROADSTER {
+    scale: 0;
+}
+
+.catalogue.action li .car-size-ROADSTER {
+    scale: 1;
+}
+
+/* 普通車navi */
+/* CX-3 navi */
+.navi1 {
+    display: block;
+    position: fixed;
+    left: -240px;
+    width: 240px;
+    height: 1040px;
+    color: #fff;
+    padding: 70px 25px;
+    background-color: #333333;
+    overflow-x: hidden;
+    overflow-y: auto;
     transition: all .5s;
+    z-index: 20;
+    opacity: 0;
 }
 
-
-.navi1 
-{
-  display: block;
-  position: fixed;
-  left: -240px;
-  width: 240px;
-  height: 1040px;
-  color: #fff;
-  padding: 70px 25px;
-  background-color: #333333;
-  overflow-x: hidden;
-  overflow-y: auto;
-  transition: all .5s;
-  z-index: 20;
-  opacity: 0;
-}
-.navi1.open1
-{
+.navi1.open1 {
     left: 0;
     opacity: 1;
 }
-.navi1 h2
-{
+
+.navi1 h2 {
     margin-top: 150px;
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
+
 .navi1 a {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
     color: #fff;
     text-decoration: none;
 }
+
 .navi1 ul {
     margin: 0;
     padding: 0;
 }
+
 .navi1 ul.navi-menu {
     margin-bottom: 100px;
 }
+
 .navi1 ul.navi-menu li {
     position: relative;
     margin: 0;
@@ -637,16 +664,17 @@ li p
     border-bottom: solid 1px #fff;
     border-top: solid 1px #fff;
 }
-.cataloguemenu1
-{
+
+.cataloguemenu1 {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
-.navi1 .detail1 dt{
+
+.navi1 .detail1 dt {
     position: absolute;
     opacity: 0;
 }
 
-.navi1 .detail1.detail1denote1 dt{
+.navi1 .detail1.detail1denote1 dt {
     Position: static;
     background: #4b4b4b;
     padding: 15px 3px;
@@ -654,18 +682,17 @@ li p
     transition: .7s ease-in-out;
 }
 
-.cataloguemenu1-2
-{
+.cataloguemenu1-2 {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 
 }
 
-.navi1 .detail1-2 dt{
+.navi1 .detail1-2 dt {
     position: absolute;
     opacity: 0;
 }
 
-.navi1 .detail1-2.detail1-2denote1-2 dt{
+.navi1 .detail1-2.detail1-2denote1-2 dt {
     Position: static;
     background: #4b4b4b;
     padding: 15px 3px;
@@ -673,49 +700,52 @@ li p
     transition: .7s ease-in-out;
 }
 
-.navi1 .detail1-2 dt.dt-bottom{
+.navi1 .detail1-2 dt.dt-bottom {
     border-bottom: solid 1px #fff;
 }
 
 
-.navi2 
-{
-  display: block;
-  position: fixed;
-  left: -240px;
-  width: 240px;
-  height: 1040px;
-  color: #fff;
-  padding: 60px 25px;
-  background-color: #333333;
-  overflow-x: hidden;
-  overflow-y: auto;
-  transition: all .5s;
-  z-index: 20;
-  opacity: 0;
+.navi2 {
+    display: block;
+    position: fixed;
+    left: -240px;
+    width: 240px;
+    height: 1040px;
+    color: #fff;
+    padding: 60px 25px;
+    background-color: #333333;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all .5s;
+    z-index: 20;
+    opacity: 0;
 }
-.navi2.open2
-{
+
+.navi2.open2 {
     left: 0;
     opacity: 1;
 }
-.navi2 h2
-{
+
+.navi2 h2 {
     margin-top: 150px;
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
+
 .navi2 a {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
     color: #fff;
     text-decoration: none;
 }
+
 .navi2 ul {
     margin: 0;
     padding: 0;
 }
+
 .navi2 ul.navi-menu {
     margin-bottom: 100px;
 }
+
 .navi2 ul.navi-menu li {
     position: relative;
     margin: 0;
@@ -723,17 +753,17 @@ li p
     border-bottom: solid 1px #fff;
     border-top: solid 1px #fff;
 }
-.cataloguemenu2
-{
+
+.cataloguemenu2 {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
 
-.navi2 .detail2 dt{
+.navi2 .detail2 dt {
     position: absolute;
     opacity: 0;
 }
 
-.navi2 .detail2.detail2denote2 dt{
+.navi2 .detail2.detail2denote2 dt {
     Position: static;
     background: #4b4b4b;
     padding: 15px 3px;
@@ -741,12 +771,12 @@ li p
     transition: .7s ease-in-out;
 }
 
-.navi2 .detail2-2 dt{
+.navi2 .detail2-2 dt {
     position: absolute;
     opacity: 0;
 }
 
-.navi2 .detail2-2.detail2-2denote2-2 dt{
+.navi2 .detail2-2.detail2-2denote2-2 dt {
     Position: static;
     background: #4b4b4b;
     padding: 15px 3px;
@@ -754,55 +784,57 @@ li p
     transition: .7s ease-in-out;
 }
 
-.cataloguemenu2-2
-{
+.cataloguemenu2-2 {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 
 }
 
-.navi2 .detail2-2 dt.dt-bottom{
+.navi2 .detail2-2 dt.dt-bottom {
     border-bottom: solid 1px #fff;
 }
 
 
-.navi3 
-{
-  display: block;
-  position: fixed;
-  left: -240px;
-  width: 240px;
-  height: 1040px;
-  color: #fff;
-  padding: 60px 25px;
-  background-color: #333333;
-  overflow-x: hidden;
-  overflow-y: auto;
-  transition: all .5s;
-  z-index: 20;
-  opacity: 0;
+.navi3 {
+    display: block;
+    position: fixed;
+    left: -240px;
+    width: 240px;
+    height: 1040px;
+    color: #fff;
+    padding: 60px 25px;
+    background-color: #333333;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all .5s;
+    z-index: 20;
+    opacity: 0;
 }
-.navi3.open3
-{
+
+.navi3.open3 {
     left: 0;
     opacity: 1;
 }
-.navi3 h2
-{
+
+.navi3 h2 {
     margin-top: 150px;
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
+
 .navi3 a {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
     color: #fff;
     text-decoration: none;
 }
+
 .navi3 ul {
     margin: 0;
     padding: 0;
 }
+
 .navi3 ul.navi-menu {
     margin-bottom: 100px;
 }
+
 .navi3 ul.navi-menu li {
     position: relative;
     margin: 0;
@@ -810,17 +842,17 @@ li p
     border-bottom: solid 1px #fff;
     border-top: solid 1px #fff;
 }
-.cataloguemenu3
-{
+
+.cataloguemenu3 {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
 
-.navi3 .detail3 dt{
+.navi3 .detail3 dt {
     position: absolute;
     opacity: 0;
 }
 
-.navi3 .detail3.detail3denote3 dt{
+.navi3 .detail3.detail3denote3 dt {
     Position: static;
     background: #4b4b4b;
     padding: 15px 3px;
@@ -828,12 +860,12 @@ li p
     transition: .7s ease-in-out;
 }
 
-.navi3 .detail3-2 dt{
+.navi3 .detail3-2 dt {
     position: absolute;
     opacity: 0;
 }
 
-.navi3 .detail3-2.detail3-2denote dt{
+.navi3 .detail3-2.detail3-2denote dt {
     Position: static;
     background: #4b4b4b;
     padding: 15px 3px;
@@ -841,17 +873,17 @@ li p
     transition: .7s ease-in-out;
 }
 
-.cataloguemenu3-2
-{
+.cataloguemenu3-2 {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 
 }
-.navi3 .detail3-2 dt{
+
+.navi3 .detail3-2 dt {
     position: absolute;
     opacity: 0;
 }
 
-.navi3 .detail3-2.detail3-2denote3-2 dt{
+.navi3 .detail3-2.detail3-2denote3-2 dt {
     Position: static;
     background: #4b4b4b;
     padding: 15px 3px;
@@ -859,54 +891,56 @@ li p
     transition: .7s ease-in-out;
 }
 
-.navi3 .detail3-2 dt.dt-bottom{
+.navi3 .detail3-2 dt.dt-bottom {
     border-bottom: solid 1px #fff;
 }
 
 
-.navi3 .detail3 dt.ev-dt-top
-{
+.navi3 .detail3 dt.ev-dt-top {
     border-top: solid 1px #fff;
 }
 
-.navi4 
-{
-  display: block;
-  position: fixed;
-  left: -240px;
-  width: 240px;
-  height: 1040px;
-  color: #fff;
-  padding: 60px 25px;
-  background-color: #333333;
-  overflow-x: hidden;
-  overflow-y: auto;
-  transition: all .5s;
-  z-index: 20;
-  opacity: 0;
+.navi4 {
+    display: block;
+    position: fixed;
+    left: -240px;
+    width: 240px;
+    height: 1040px;
+    color: #fff;
+    padding: 60px 25px;
+    background-color: #333333;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all .5s;
+    z-index: 20;
+    opacity: 0;
 }
-.navi4.open4
-{
+
+.navi4.open4 {
     left: 0;
     opacity: 1;
 }
-.navi4 h2
-{
+
+.navi4 h2 {
     margin-top: 150px;
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
+
 .navi4 a {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
     color: #fff;
     text-decoration: none;
 }
+
 .navi4 ul {
     margin: 0;
     padding: 0;
 }
+
 .navi4 ul.navi-menu {
     margin-bottom: 100px;
 }
+
 .navi4 ul.navi-menu li {
     position: relative;
     margin: 0;
@@ -914,17 +948,17 @@ li p
     border-bottom: solid 1px #fff;
     border-top: solid 1px #fff;
 }
-.cataloguemenu4
-{
+
+.cataloguemenu4 {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
 
-.navi4 .detail4 dt{
+.navi4 .detail4 dt {
     position: absolute;
     opacity: 0;
 }
 
-.navi4 .detail4.detail4denote4 dt{
+.navi4 .detail4.detail4denote4 dt {
     Position: static;
     background: #4b4b4b;
     padding: 15px 3px;
@@ -932,18 +966,17 @@ li p
     transition: .7s ease-in-out;
 }
 
-.cataloguemenu4-2
-{
+.cataloguemenu4-2 {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 
 }
 
-.navi4 .detail4-2 dt{
+.navi4 .detail4-2 dt {
     position: absolute;
     opacity: 0;
 }
 
-.navi4 .detail4-2.detail4-2denote4-2 dt{
+.navi4 .detail4-2.detail4-2denote4-2 dt {
     Position: static;
     background: #4b4b4b;
     padding: 15px 3px;
@@ -951,49 +984,51 @@ li p
     transition: .7s ease-in-out;
 }
 
-.navi4 .detail4-2 dt.dt-bottom
-{
+.navi4 .detail4-2 dt.dt-bottom {
     border-bottom: solid 1px #fff;
 }
 
-.navi5
-{
-  display: block;
-  position: fixed;
-  left: -240px;
-  width: 240px;
-  height: 1040px;
-  color: #fff;
-  padding: 60px 25px;
-  background-color: #333333;
-  overflow-x: hidden;
-  overflow-y: auto;
-  transition: all .5s;
-  z-index: 20;
-  opacity: 0;
+.navi5 {
+    display: block;
+    position: fixed;
+    left: -240px;
+    width: 240px;
+    height: 1040px;
+    color: #fff;
+    padding: 60px 25px;
+    background-color: #333333;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all .5s;
+    z-index: 20;
+    opacity: 0;
 }
-.navi5.open5
-{
+
+.navi5.open5 {
     left: 0;
     opacity: 1;
 }
-.navi5 h2
-{
+
+.navi5 h2 {
     margin-top: 150px;
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
+
 .navi5 a {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
     color: #fff;
     text-decoration: none;
 }
+
 .navi5 ul {
     margin: 0;
     padding: 0;
 }
+
 .navi5 ul.navi-menu {
     margin-bottom: 100px;
 }
+
 .navi5 ul.navi-menu li {
     position: relative;
     margin: 0;
@@ -1001,17 +1036,17 @@ li p
     border-bottom: solid 1px #fff;
     border-top: solid 1px #fff;
 }
-.cataloguemenu5
-{
+
+.cataloguemenu5 {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
 
-.navi5 .detail5 dt{
+.navi5 .detail5 dt {
     position: absolute;
     opacity: 0;
 }
 
-.navi5 .detail5.detail5denote5 dt{
+.navi5 .detail5.detail5denote5 dt {
     Position: static;
     background: #4b4b4b;
     padding: 15px 3px;
@@ -1019,18 +1054,17 @@ li p
     transition: .7s ease-in-out;
 }
 
-.cataloguemenu5-2
-{
+.cataloguemenu5-2 {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 
 }
 
-.navi5 .detail5-2 dt{
+.navi5 .detail5-2 dt {
     position: absolute;
     opacity: 0;
 }
 
-.navi5 .detail5-2.detail5-2denote5-2 dt{
+.navi5 .detail5-2.detail5-2denote5-2 dt {
     Position: static;
     background: #4b4b4b;
     padding: 15px 3px;
@@ -1038,49 +1072,51 @@ li p
     transition: .7s ease-in-out;
 }
 
-.navi5 .detail5-2 dt.dt-bottom
-{
+.navi5 .detail5-2 dt.dt-bottom {
     border-bottom: solid 1px #fff;
 }
 
-.navi6 
-{
-  display: block;
-  position: fixed;
-  left: -240px;
-  width: 240px;
-  height: 1040px;
-  color: #fff;
-  padding: 60px 25px;
-  background-color: #333333;
-  overflow-x: hidden;
-  overflow-y: auto;
-  transition: all .5s;
-  z-index: 20;
-  opacity: 0;
+.navi6 {
+    display: block;
+    position: fixed;
+    left: -240px;
+    width: 240px;
+    height: 1040px;
+    color: #fff;
+    padding: 60px 25px;
+    background-color: #333333;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all .5s;
+    z-index: 20;
+    opacity: 0;
 }
-.navi6.open6
-{
+
+.navi6.open6 {
     left: 0;
     opacity: 1;
 }
-.navi6 h2
-{
+
+.navi6 h2 {
     margin-top: 150px;
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
+
 .navi6 a {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
     color: #fff;
     text-decoration: none;
 }
+
 .navi6 ul {
     margin: 0;
     padding: 0;
 }
+
 .navi6 ul.navi-menu {
     margin-bottom: 100px;
 }
+
 .navi6 ul.navi-menu li {
     position: relative;
     margin: 0;
@@ -1088,17 +1124,17 @@ li p
     border-bottom: solid 1px #fff;
     border-top: solid 1px #fff;
 }
-.cataloguemenu6
-{
+
+.cataloguemenu6 {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
 
-.navi6 .detail6 dt{
+.navi6 .detail6 dt {
     position: absolute;
     opacity: 0;
 }
 
-.navi6 .detail6.detail6denote6 dt{
+.navi6 .detail6.detail6denote6 dt {
     Position: static;
     background: #4b4b4b;
     padding: 15px 3px;
@@ -1106,18 +1142,17 @@ li p
     transition: .7s ease-in-out;
 }
 
-.cataloguemenu6-2
-{
+.cataloguemenu6-2 {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 
 }
 
-.navi6 .detail6-2 dt{
+.navi6 .detail6-2 dt {
     position: absolute;
     opacity: 0;
 }
 
-.navi6 .detail6-2.detail6-2denote6-2 dt{
+.navi6 .detail6-2.detail6-2denote6-2 dt {
     Position: static;
     background: #4b4b4b;
     padding: 15px 3px;
@@ -1125,49 +1160,52 @@ li p
     transition: .7s ease-in-out;
 }
 
-.navi6 .detail6-2 dt.dt-bottom{
+.navi6 .detail6-2 dt.dt-bottom {
 
     border-bottom: solid 1px #fff;
 }
 
-.navi7 
-{
-  display: block;
-  position: fixed;
-  left: -240px;
-  width: 240px;
-  height: 1040px;
-  color: #fff;
-  padding: 60px 25px;
-  background-color: #333333;
-  overflow-x: hidden;
-  overflow-y: auto;
-  transition: all .5s;
-  z-index: 20;
-  opacity: 0;
+.navi7 {
+    display: block;
+    position: fixed;
+    left: -240px;
+    width: 240px;
+    height: 1040px;
+    color: #fff;
+    padding: 60px 25px;
+    background-color: #333333;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all .5s;
+    z-index: 20;
+    opacity: 0;
 }
-.navi7.open7
-{
+
+.navi7.open7 {
     left: 0;
     opacity: 1;
 }
-.navi7 h2
-{
+
+.navi7 h2 {
     margin-top: 150px;
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
+
 .navi7 a {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
     color: #fff;
     text-decoration: none;
 }
+
 .navi7 ul {
     margin: 0;
     padding: 0;
 }
+
 .navi7 ul.navi-menu {
     margin-bottom: 100px;
 }
+
 .navi7 ul.navi-menu li {
     position: relative;
     margin: 0;
@@ -1175,17 +1213,17 @@ li p
     border-bottom: solid 1px #fff;
     border-top: solid 1px #fff;
 }
-.cataloguemenu7
-{
+
+.cataloguemenu7 {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
 
-.navi7 .detail7 dt{
+.navi7 .detail7 dt {
     position: absolute;
     opacity: 0;
 }
 
-.navi7 .detail7.detail7denote7 dt{
+.navi7 .detail7.detail7denote7 dt {
     Position: static;
     background: #4b4b4b;
     padding: 15px 3px;
@@ -1193,18 +1231,17 @@ li p
     transition: .7s ease-in-out;
 }
 
-.cataloguemenu7-2
-{
+.cataloguemenu7-2 {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 
 }
 
-.navi7 .detail7-2 dt{
+.navi7 .detail7-2 dt {
     position: absolute;
     opacity: 0;
 }
 
-.navi7 .detail7-2.detail7-2denote7-2 dt{
+.navi7 .detail7-2.detail7-2denote7-2 dt {
     Position: static;
     background: #4b4b4b;
     padding: 15px 3px;
@@ -1212,49 +1249,52 @@ li p
     transition: .7s ease-in-out;
 }
 
-.navi7 .detail7-2 dt.dt-bottom{
+.navi7 .detail7-2 dt.dt-bottom {
     border-bottom: solid 1px #fff;
 }
 
 
-.navi8 
-{
-  display: block;
-  position: fixed;
-  left: -240px;
-  width: 240px;
-  height: 1040px;
-  color: #fff;
-  padding: 60px 25px;
-  background-color: #333333;
-  overflow-x: hidden;
-  overflow-y: auto;
-  transition: all .5s;
-  z-index: 20;
-  opacity: 0;
+.navi8 {
+    display: block;
+    position: fixed;
+    left: -240px;
+    width: 240px;
+    height: 1040px;
+    color: #fff;
+    padding: 60px 25px;
+    background-color: #333333;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all .5s;
+    z-index: 20;
+    opacity: 0;
 }
-.navi8.open8
-{
+
+.navi8.open8 {
     left: 0;
     opacity: 1;
 }
-.navi8 h2
-{
+
+.navi8 h2 {
     margin-top: 150px;
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
+
 .navi8 a {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
     color: #fff;
     text-decoration: none;
 }
+
 .navi8 ul {
     margin: 0;
     padding: 0;
 }
+
 .navi8 ul.navi-menu {
     margin-bottom: 100px;
 }
+
 .navi8 ul.navi-menu li {
     position: relative;
     margin: 0;
@@ -1262,17 +1302,17 @@ li p
     border-bottom: solid 1px #fff;
     border-top: solid 1px #fff;
 }
-.cataloguemenu8
-{
+
+.cataloguemenu8 {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
 
-.navi8 .detail8 dt{
+.navi8 .detail8 dt {
     position: absolute;
     opacity: 0;
 }
 
-.navi8 .detail8.detail8denote8 dt{
+.navi8 .detail8.detail8denote8 dt {
     Position: static;
     background: #4b4b4b;
     padding: 15px 3px;
@@ -1280,18 +1320,17 @@ li p
     transition: .7s ease-in-out;
 }
 
-.cataloguemenu8-2
-{
+.cataloguemenu8-2 {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 
 }
 
-.navi8 .detail8-2 dt{
+.navi8 .detail8-2 dt {
     position: absolute;
     opacity: 0;
 }
 
-.navi8 .detail8-2.detail8-2denote8-2 dt{
+.navi8 .detail8-2.detail8-2denote8-2 dt {
     Position: static;
     background: #4b4b4b;
     padding: 15px 3px;
@@ -1299,49 +1338,52 @@ li p
     transition: .7s ease-in-out;
 }
 
-.navi8 .detail8-2 dt.dt-bottom{
+.navi8 .detail8-2 dt.dt-bottom {
     border-bottom: solid 1px #fff;
 }
 
 
-.navi9 
-{
-  display: block;
-  position: fixed;
-  left: -240px;
-  width: 240px;
-  height: 1040px;
-  color: #fff;
-  padding: 60px 25px;
-  background-color: #333333;
-  overflow-x: hidden;
-  overflow-y: auto;
-  transition: all .5s;
-  z-index: 20;
-  opacity: 0;
+.navi9 {
+    display: block;
+    position: fixed;
+    left: -240px;
+    width: 240px;
+    height: 1040px;
+    color: #fff;
+    padding: 60px 25px;
+    background-color: #333333;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all .5s;
+    z-index: 20;
+    opacity: 0;
 }
-.navi9.open9
-{
+
+.navi9.open9 {
     left: 0;
     opacity: 1;
 }
-.navi9 h2
-{
+
+.navi9 h2 {
     margin-top: 150px;
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
+
 .navi9 a {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
     color: #fff;
     text-decoration: none;
 }
+
 .navi9 ul {
     margin: 0;
     padding: 0;
 }
+
 .navi9 ul.navi-menu {
     margin-bottom: 100px;
 }
+
 .navi9 ul.navi-menu li {
     position: relative;
     margin: 0;
@@ -1349,17 +1391,17 @@ li p
     border-bottom: solid 1px #fff;
     border-top: solid 1px #fff;
 }
-.cataloguemenu9
-{
+
+.cataloguemenu9 {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
 
-.navi9 .detail9 dt{
+.navi9 .detail9 dt {
     position: absolute;
     opacity: 0;
 }
 
-.navi9 .detail9.detail9denote9 dt{
+.navi9 .detail9.detail9denote9 dt {
     Position: static;
     background: #4b4b4b;
     padding: 15px 3px;
@@ -1367,18 +1409,17 @@ li p
     transition: .7s ease-in-out;
 }
 
-.cataloguemenu9-2
-{
+.cataloguemenu9-2 {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 
 }
 
-.navi9 .detail9-2 dt{
+.navi9 .detail9-2 dt {
     position: absolute;
     opacity: 0;
 }
 
-.navi9 .detail9-2.detail9-2denote9-2 dt{
+.navi9 .detail9-2.detail9-2denote9-2 dt {
     Position: static;
     background: #4b4b4b;
     padding: 15px 3px;
@@ -1386,48 +1427,51 @@ li p
     transition: .7s ease-in-out;
 }
 
-.navi9 .detail9-2 dt.dt-bottom{
+.navi9 .detail9-2 dt.dt-bottom {
     border-bottom: solid 1px #fff;
 }
 
-.navi10 
-{
-  display: block;
-  position: fixed;
-  left: -240px;
-  width: 240px;
-  height: 1040px;
-  color: #fff;
-  padding: 60px 25px;
-  background-color: #333333;
-  overflow-x: hidden;
-  overflow-y: auto;
-  transition: all .5s;
-  z-index: 20;
-  opacity: 0;
+.navi10 {
+    display: block;
+    position: fixed;
+    left: -240px;
+    width: 240px;
+    height: 1040px;
+    color: #fff;
+    padding: 60px 25px;
+    background-color: #333333;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all .5s;
+    z-index: 20;
+    opacity: 0;
 }
-.navi10.open10
-{
+
+.navi10.open10 {
     left: 0;
     opacity: 1;
 }
-.navi10 h2
-{
+
+.navi10 h2 {
     margin-top: 150px;
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
+
 .navi10 a {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
     color: #fff;
     text-decoration: none;
 }
+
 .navi10 ul {
     margin: 0;
     padding: 0;
 }
+
 .navi10 ul.navi-menu {
     margin-bottom: 100px;
 }
+
 .navi10 ul.navi-menu li {
     position: relative;
     margin: 0;
@@ -1435,17 +1479,17 @@ li p
     border-bottom: solid 1px #fff;
     border-top: solid 1px #fff;
 }
-.cataloguemenu10
-{
+
+.cataloguemenu10 {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
 
-.navi10 .detail10 dt{
+.navi10 .detail10 dt {
     position: absolute;
     opacity: 0;
 }
 
-.navi10 .detail10.detail10denote10 dt{
+.navi10 .detail10.detail10denote10 dt {
     Position: static;
     background: #4b4b4b;
     padding: 15px 3px;
@@ -1453,18 +1497,17 @@ li p
     transition: .7s ease-in-out;
 }
 
-.cataloguemenu10-2
-{
+.cataloguemenu10-2 {
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 
 }
 
-.navi10 .detail10-2 dt{
+.navi10 .detail10-2 dt {
     position: absolute;
     opacity: 0;
 }
 
-.navi10 .detail10-2.detail10-2denote10-2 dt{
+.navi10 .detail10-2.detail10-2denote10-2 dt {
     Position: static;
     background: #4b4b4b;
     padding: 15px 3px;
@@ -1472,13 +1515,741 @@ li p
     transition: .7s ease-in-out;
 }
 
-.navi10 .detail10-2 dt.dt-bottom
-{
+.navi10 .detail10-2 dt.dt-bottom {
     border-bottom: solid 1px #fff;
 }
 
-.navi10 .detail10 dt.RF-dt-top
-{
+.navi10 .detail10 dt.RF-dt-top {
     border-top: solid 1px #fff;
 }
 
+/* 軽自動車アイコン */
+.catalogue3 li {
+    color: #000000;
+    scale: 0;
+    position: absolute;
+    left: -210px;
+    top: 20px;
+    transform-origin: 250px;
+    background: #ffffff;
+    transition: 1s;
+    transform: rotate(calc(360deg/5 * var(--i)));
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.20);
+
+
+}
+
+.catalogue3.action3 li {
+    position: absolute;
+    left: -130px;
+    top: -250px;
+    list-style: none;
+    transition: 1s;
+    transform: rotate(calc(360deg/5 * var(--i)));
+    transform-origin: 50% 370px;
+    scale: 1;
+    width: 165px;
+    height: 165px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.20);
+}
+
+/* 軽自動車車種画像 */
+.catalogue3 li img {
+    position: relative;
+    transform: rotate(calc(360deg/-5
+     * var(--i)));
+    scale: 0;
+    transition: 0.4s;
+
+}
+
+.catalogue3.action3 li img {
+    scale: 1;
+}
+
+/* 車種名、大きさ キャロル*/
+.car-name-carol {
+    position: absolute;
+    top: 10px;
+    left: auto;
+    font-size: 35px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-5 * var(--i)));
+
+}
+
+.car-size-carol {
+    position: absolute;
+    top: 110px;
+    left: auto;
+    font-size: 14px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-5 * var(--i)));
+
+}
+
+.catalogue3 li .car-name-carol {
+    scale: 0;
+}
+
+.catalogue3.action3 li .car-name-carol {
+    scale: 1;
+}
+
+.catalogue3 li .car-size-carol {
+    scale: 0;
+}
+
+.catalogue3.action3 li .car-size-carol {
+    scale: 1;
+}
+
+/* 車種名、大きさ フレア*/
+.car-name-flair {
+    position: absolute;
+    top: 44px;
+    left: -10px;
+    font-size: 35px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-5 * var(--i)));
+
+}
+
+.car-size-flair {
+    position: absolute;
+    top: 84px;
+    left: 47px;
+    font-size: 14px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-5 * var(--i)));
+
+}
+
+.catalogue3 li .car-name-flair {
+    scale: 0;
+}
+
+.catalogue3.action3 li .car-name-flair {
+    scale: 1;
+}
+
+.catalogue3 li .car-size-flair {
+    scale: 0;
+}
+
+.catalogue3.action3 li .car-size-flair {
+    scale: 1;
+}
+
+/* 車種名、大きさ フレアワゴン*/
+.car-name-flair-wagon {
+    position: absolute;
+    top: 93px;
+    left: 15px;
+    font-size: 20px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-5 * var(--i)));
+
+}
+
+.car-size-flair-wagon {
+    position: absolute;
+    top: 41px;
+    left: 34px;
+    font-size: 14px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-5 * var(--i)));
+
+}
+
+.catalogue3 li .car-name-flair-wagon {
+    scale: 0;
+}
+
+.catalogue3.action3 li .car-name-flair-wagon {
+    scale: 1;
+}
+
+.catalogue3 li .car-size-flair-wagon {
+    scale: 0;
+}
+
+.catalogue3.action3 li .car-size-flair-wagon {
+    scale: 1;
+}
+
+/* 車種名、大きさ フレアクロスオーバー*/
+.car-name-flair-crossover {
+    position: absolute;
+    top: 95px;
+    left: 52px;
+    font-size: 20px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-5 * var(--i)));
+
+}
+
+.car-size-flair-crossover {
+    position: absolute;
+    top: 41px;
+    left: -11px;
+    font-size: 14px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-5 * var(--i)));
+
+}
+
+.catalogue3 li .car-name-flair-crossover {
+    scale: 0;
+}
+
+.catalogue3.action3 li .car-name-flair-crossover {
+    scale: 1;
+}
+
+.catalogue3 li .car-size-flair-crossover {
+    scale: 0;
+}
+
+.catalogue3.action3 li .car-size-flair-crossover {
+    scale: 1;
+}
+
+/* 車種名、大きさ スクラムワゴン*/
+.car-name-scrum-wagon {
+    position: absolute;
+    top: 35px;
+    left: 91px;
+    font-size: 20px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-5 * var(--i)));
+
+}
+
+.car-size-scrum-wagon {
+    position: absolute;
+    top: 84px;
+    left: -25px;
+    font-size: 14px;
+    font-weight: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    transform: rotate(calc(360deg/-5 * var(--i)));
+
+}
+
+.catalogue3 li .car-name-scrum-wagon {
+    scale: 0;
+}
+
+.catalogue3.action3 li .car-name-scrum-wagon {
+    scale: 1;
+}
+
+.catalogue3 li .car-size-scrum-wagon {
+    scale: 0;
+}
+
+.catalogue3.action3 li .car-size-scrum-wagon {
+    scale: 1;
+}
+
+/* 軽自動車navi */
+/* キャロルnavi */
+.navi11 {
+    display: block;
+    position: fixed;
+    left: -240px;
+    width: 240px;
+    height: 1040px;
+    color: #fff;
+    padding: 70px 25px;
+    background-color: #333333;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all .5s;
+    z-index: 20;
+    opacity: 0;
+}
+
+.navi11.open11 {
+    left: 0;
+    opacity: 1;
+}
+
+.navi11 h2 {
+    margin-top: 150px;
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+}
+
+.navi11 a {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navi11 ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navi11 ul.navi-menu {
+    margin-bottom: 100px;
+}
+
+.navi11 ul.navi-menu li {
+    position: relative;
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: solid 1px #fff;
+    border-top: solid 1px #fff;
+}
+
+.cataloguemenu11 {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+}
+
+.navi11 .detail11 dt {
+    position: absolute;
+    opacity: 0;
+}
+
+.navi11 .detail11.detail11denote11 dt {
+    Position: static;
+    background: #4b4b4b;
+    padding: 15px 3px;
+    opacity: 1;
+    transition: .7s ease-in-out;
+}
+
+.cataloguemenu11-2 {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+
+}
+
+.navi11 .detail11-2 dt {
+    position: absolute;
+    opacity: 0;
+}
+
+.navi11 .detail11-2.detail11-2denote11-2 dt {
+    Position: static;
+    background: #4b4b4b;
+    padding: 15px 3px;
+    opacity: 1;
+    transition: .7s ease-in-out;
+}
+
+.navi11 .detail11-2 dt.dt-bottom {
+    border-bottom: solid 1px #fff;
+}
+
+/* フレアnavi */
+.navi12 {
+    display: block;
+    position: fixed;
+    left: -240px;
+    width: 240px;
+    height: 1040px;
+    color: #fff;
+    padding: 70px 25px;
+    background-color: #333333;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all .5s;
+    z-index: 20;
+    opacity: 0;
+}
+
+.navi12.open12 {
+    left: 0;
+    opacity: 1;
+}
+
+.navi12 h2 {
+    margin-top: 150px;
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+}
+
+.navi12 a {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navi12 ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navi12 ul.navi-menu {
+    margin-bottom: 100px;
+}
+
+.navi12 ul.navi-menu li {
+    position: relative;
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: solid 1px #fff;
+    border-top: solid 1px #fff;
+}
+
+.cataloguemenu12 {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+}
+
+.navi12 .detail12 dt {
+    position: absolute;
+    opacity: 0;
+}
+
+.navi12 .detail12.detail12denote12 dt {
+    Position: static;
+    background: #4b4b4b;
+    padding: 15px 3px;
+    opacity: 1;
+    transition: .7s ease-in-out;
+}
+
+.cataloguemenu12-2 {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+
+}
+
+.navi12 .detail12-2 dt {
+    position: absolute;
+    opacity: 0;
+}
+
+.navi12 .detail12-2.detail12-2denote12-2 dt {
+    Position: static;
+    background: #4b4b4b;
+    padding: 15px 3px;
+    opacity: 1;
+    transition: .7s ease-in-out;
+}
+
+.navi12 .detail12-2 dt.dt-bottom {
+    border-bottom: solid 1px #fff;
+}
+
+
+/* フレアワゴンnavi */
+.navi13 {
+    display: block;
+    position: fixed;
+    left: -240px;
+    width: 240px;
+    height: 1040px;
+    color: #fff;
+    padding: 70px 25px;
+    background-color: #333333;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all .5s;
+    z-index: 20;
+    opacity: 0;
+}
+
+.navi13.open13 {
+    left: 0;
+    opacity: 1;
+}
+
+.navi13 h2 {
+    margin-top: 150px;
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+}
+
+.navi13 a {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navi13 ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navi13 ul.navi-menu {
+    margin-bottom: 100px;
+}
+
+.navi13 ul.navi-menu li {
+    position: relative;
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: solid 1px #fff;
+    border-top: solid 1px #fff;
+}
+
+.cataloguemenu13 {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+}
+
+.navi13 .detail13 dt {
+    position: absolute;
+    opacity: 0;
+}
+
+.navi13 .detail13.detail13denote13 dt {
+    Position: static;
+    background: #4b4b4b;
+    padding: 15px 3px;
+    opacity: 1;
+    transition: .7s ease-in-out;
+}
+
+.cataloguemenu13-2 {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+
+}
+
+.navi13 .detail13-2 dt {
+    position: absolute;
+    opacity: 0;
+}
+
+.navi13 .detail13-2.detail13-2denote13-2 dt {
+    Position: static;
+    background: #4b4b4b;
+    padding: 15px 3px;
+    opacity: 1;
+    transition: .7s ease-in-out;
+}
+
+.navi13 .detail13-2 dt.dt-bottom {
+    border-bottom: solid 1px #fff;
+}
+
+/* フレアクロスオーバーnavi */
+.navi14 {
+    display: block;
+    position: fixed;
+    left: -240px;
+    width: 240px;
+    height: 1040px;
+    color: #fff;
+    padding: 70px 25px;
+    background-color: #333333;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all .5s;
+    z-index: 20;
+    opacity: 0;
+}
+
+.navi14.open14 {
+    left: 0;
+    opacity: 1;
+}
+
+.navi14 h2 {
+    margin-top: 150px;
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+}
+
+.navi14 a {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navi14 ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navi14 ul.navi-menu {
+    margin-bottom: 100px;
+}
+
+.navi14 ul.navi-menu li {
+    position: relative;
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: solid 1px #fff;
+    border-top: solid 1px #fff;
+}
+
+.cataloguemenu14 {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+}
+
+.navi14 .detail14 dt {
+    position: absolute;
+    opacity: 0;
+}
+
+.navi14 .detail14.detail14denote14 dt {
+    Position: static;
+    background: #4b4b4b;
+    padding: 15px 3px;
+    opacity: 1;
+    transition: .7s ease-in-out;
+}
+
+.cataloguemenu14-2 {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+
+}
+
+.navi14 .detail14-2 dt {
+    position: absolute;
+    opacity: 0;
+}
+
+.navi14 .detail14-2.detail14-2denote14-2 dt {
+    Position: static;
+    background: #4b4b4b;
+    padding: 15px 3px;
+    opacity: 1;
+    transition: .7s ease-in-out;
+}
+
+.navi14 .detail14-2 dt.dt-bottom {
+    border-bottom: solid 1px #fff;
+}
+
+/* フレアワゴンnavi */
+.navi15 {
+    display: block;
+    position: fixed;
+    left: -240px;
+    width: 240px;
+    height: 1040px;
+    color: #fff;
+    padding: 70px 25px;
+    background-color: #333333;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all .5s;
+    z-index: 20;
+    opacity: 0;
+}
+
+.navi15.open15 {
+    left: 0;
+    opacity: 1;
+}
+
+.navi15 h2 {
+    margin-top: 150px;
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+}
+
+.navi15 a {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navi15 ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navi15 ul.navi-menu {
+    margin-bottom: 100px;
+}
+
+.navi15 ul.navi-menu li {
+    position: relative;
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: solid 1px #fff;
+    border-top: solid 1px #fff;
+}
+
+.cataloguemenu15 {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+}
+
+.navi15 .detail15 dt {
+    position: absolute;
+    opacity: 0;
+}
+
+.navi15 .detail15.detail15denote15 dt {
+    Position: static;
+    background: #4b4b4b;
+    padding: 15px 3px;
+    opacity: 1;
+    transition: .7s ease-in-out;
+}
+
+.cataloguemenu15-2 {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+
+}
+
+.navi15 .detail15-2 dt {
+    position: absolute;
+    opacity: 0;
+}
+
+.navi15 .detail15-2.detail15-2denote15-2 dt {
+    Position: static;
+    background: #4b4b4b;
+    padding: 15px 3px;
+    opacity: 1;
+    transition: .7s ease-in-out;
+}
+
+.navi15 .detail15-2 dt.dt-bottom {
+    border-bottom: solid 1px #fff;
+}
+
+
+
+
+.main.slide {
+    left: 130px;
+    top: 0px;
+    transition: all .5s;
+}
+.main.slide2 {
+    left: 130px;
+    top: 0px;
+    transition: all .5s;
+}
